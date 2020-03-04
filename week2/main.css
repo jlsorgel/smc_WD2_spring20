@@ -1,0 +1,80 @@
+@import url("layout.css");
+@import url("colors.css");
+
+/* first responsive site */
+body{
+  margin:0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{max-width:75px;
+  margin:15px;
+  }
+
+
+#toggleassist,
+ul.nav-links {
+  display:none;
+}
+
+#toggleassist:checked + ul.nav-links{
+  display:block;
+}
+
+.toggle-button{
+  width:40px;
+  float:right;
+  margin:15px;}
+
+ul.nav-links{
+  list-style: none;
+  padding-left: 0px;
+}
+
+
+
+ul.nav-links a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #311B92;
+
+}
+
+
+ul.nav-links li {
+  padding: 10px;
+  border-bottom: 2px solid rebeccapurple;
+}
+
+
+
+/* begin mid-screen media query */
+
+@media (min-width: 550px){
+  .toggle-button{
+    display:none;
+  }
+
+  ul.nav-links{
+    display:block;
+    float:right;
+  }
+
+  ul.nav-links li{
+    display:inline-block;
+    border-bottom: none;
+    margin-top:15px;
+  }
+
+}
+
+/* BEGIN mid-screen media query */
+
+
+@media(min-width: 960px){
+  header {
+    width:960px;
+    margin: auto;
+  }
+
+}

@@ -1,0 +1,33 @@
+.floater{
+  float:left;
+  min-height:200px;
+  
+}
+
+
+.w-100{
+  width:100%;
+}
+
+
+/* MED-screen media query */
+@media(min-width:550px){
+  .w-med-50{
+    width: 50%;
+  }
+  .w-med-33{
+    width:33.3%;
+  }
+}
+
+
+
+/* LARGE-screen media query */
+@media(min-width:960px){
+  .w-lg-50{
+    width:50%;
+  }
+  .w-lg-100{
+    width:100%;
+  }
+}
