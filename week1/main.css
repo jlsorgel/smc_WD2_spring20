@@ -63,6 +63,15 @@ ul.nav-links li {
     margin-top:25px;
   }
 
-} /* END mid-screen media query */
+}
+
+/* BEGIN mid-screen media query */
 
 
+@media(min-width: 960px){
+  header {
+    width:960px;
+    margin: auto;
+  }
+
+}
