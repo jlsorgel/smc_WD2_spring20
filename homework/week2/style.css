@@ -54,7 +54,9 @@ ul.nav-links a{
   
 
 }
-
+ul.nav-links a:active { 
+  color: rgb(255, 196, 0);
+}
 
 ul.nav-links li {
   padding: 10px;
