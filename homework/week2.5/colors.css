@@ -1,0 +1,37 @@
+.red-bg{
+  background-color: rgba(255, 131, 131, 0.925);
+}
+
+.green-bg{
+  background-color: rgb(215, 255, 242);
+}
+
+.blue-bg{
+  background-color: rgb(199, 212, 255);
+}
+
+.yellow-bg{
+  background-color: rgb(252, 252, 190);
+}
+
+.pink-bg{
+  background-color: rgb(255, 209, 216);
+}
+
+.black-bg{
+  background-color: #27292D;
+}
+
+.white{
+  background-color: #ffffff 
+}
+
+.offwhite{
+  background-color: #fbf6fb
+}
+/* 
+.larger-text{
+  font-size: 20px;
+  line-height: 1.4;
+
+} */
