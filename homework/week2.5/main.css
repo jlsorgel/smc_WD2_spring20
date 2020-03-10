@@ -108,7 +108,7 @@ body{
 
   ul.nav-links{
     display:block;
-    float:right;
+    /* float:right; */
   }
 
   ul.nav-links li{
