@@ -1,0 +1,27 @@
+
+/* ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+} */
+
+.logo{max-width:200px;}
+
+
+
+.navbar{
+  background-color: bisque;
+  display: flex;
+  
+  /* flex-direction: column; */
+}
+
+.navlinks{
+  background-color: burlywood;
+  
+}
+
+.navlinks a {
+    color: #43291a;
+    text-decoration: none;
+}
