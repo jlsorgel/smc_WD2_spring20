@@ -1,0 +1,122 @@
+/* NAV *//* NAV *//* NAV */
+
+ 
+.logo{max-width:200px;
+  
+  float: left;
+  margin-left: 15px;
+  margin-right: 15px;
+   
+  }
+
+
+#toggleassist,
+ul.nav-links {
+  display:none;
+}
+
+#toggleassist:checked + ul.nav-links{
+  display:block;
+}
+
+.menubutton{
+  width:40px;
+  float:right;
+  margin:15px;}
+
+ul.nav-links{
+  list-style: none;
+  padding-left: 0px;
+  padding-top: 70px;
+  text-align:center; 
+}
+
+ul.nav-links a:active { 
+  
+}
+
+ul.nav-links a{
+  text-decoration: none;
+  text-transform: uppercase;
+ 
+
+  
+
+}
+
+ul.nav-links li {
+  padding: 10px;
+  border-bottom: 2px solid rgb(255, 196, 0);
+}
+
+
+
+/* end navend navend navend nav */
+
+header{
+    overflow: hidden;
+    background-color:white;
+    /* height:40px;
+    padding-top: 14px;
+    padding-bottom: 14px; */
+    position: fixed;
+    top:0;
+    width:100%;
+}
+
+main{
+margin-top: 185px;
+}
+
+
+
+
+
+
+.logo{
+    margin-top: 5px;
+  }
+
+  .menubutton{
+    display:none;
+  }
+
+  ul.nav-links{
+    display:block;
+    float:right;
+     padding-top: 0px;
+    margin-right:15px;
+  }
+
+  ul.nav-links li{
+    display:inline-block;
+    border-bottom: none;
+    margin-top:5px;
+  }
+  
+
+
+
+
+/* ----------BEGIN MID SIZE------ */
+@media (min-width: 747px){
+
+ 
+  
+    /* .nav-links a{
+    color:White;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left:10px;
+    margin-right:10px;
+    display:inline-block;
+    text-transform: uppercase;
+    } */
+    
+    .nav-links a.active {
+    color:Black;
+    font-weight: bold;
+    }
+
+
+} 
