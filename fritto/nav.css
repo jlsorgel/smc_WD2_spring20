@@ -1,22 +1,21 @@
-/* NAV *//* NAV *//* NAV */
 
-header{
-  position: sticky;
-  background: white;
-}
 
 .logo{
   max-width:200px;
-  }
+}
 
 
 #toggleassist,
 ul.nav-links {
   display:none;
+  font-family:  'Homemade Apple';
 }
 
 #toggleassist:checked + ul.nav-links{
   display:block;
+  height: 100vh;
+  text-align: center;
+  font-size: 2em;
 }
 
 .toggle-button{
@@ -27,92 +26,77 @@ ul.nav-links {
 ul.nav-links{
   list-style: none;
   padding-left: 0px;
+  
+   
 }
 
 
 
 ul.nav-links a{
   text-decoration: none;
-  text-transform: uppercase;
-  color: #311B92;
+  color: #731702;
 
 }
-.nav-links a.active {
-    color:lime;
-    font-weight: bold;
-    }
-
 
 
 ul.nav-links li {
-  padding: 10px;
-  border-bottom: 2px solid rebeccapurple;
+  padding: 20px;
+  
 }
 
 
 
-/* end navend navend navend nav */
-
-header{
-    overflow: hidden;
-    background-color:white;
-    /* height:40px;
-    padding-top: 14px;
-    padding-bottom: 14px; */
-    position: fixed;
-    top:0;
-    width:100%;
-}
-/* 
-main{
-margin-top: 185px;
-} */
 
 
 
 
 
+/* begin mid-screen media query */
 
-.logo{
-    margin-top: 5px;
-  }
+@media (min-width: 550px){
 
-  .menubutton{
+ 
+  .toggle-button{
     display:none;
   }
 
   ul.nav-links{
     display:block;
     float:right;
-     padding-top: 0px;
-    margin-right:15px;
   }
 
   ul.nav-links li{
     display:inline-block;
     border-bottom: none;
-    margin-top:5px;
+    /* margin-top:15px; */
   }
-  
+
+}
 
 
 
 
-/* ----------BEGIN MID SIZE------ */
-@media (min-width: 747px){
 
- 
-  
-    /* .nav-links a{
-    color:White;
-    text-decoration: none;
-    font-size: 20px;
-    margin-left:10px;
-    margin-right:10px;
-    display:inline-block;
-    text-transform: uppercase;
-    } */
-    
-    
+/* BEGIN mid-screen media query */
 
-} 
+
+@media(min-width: 960px){
+  header {
+    margin: auto;
+    z-index: 1;
+  }
+
+  .logo{
+  max-width: 350px;
+  z-index:1;
+  }
+
+  .heroimage{
+    margin-top: -80px;
+    z-index: 0;
+        /* height: 70vh !important;
+    min-height: 0px !important; */
+  }
+
+
+}
