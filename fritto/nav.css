@@ -37,6 +37,11 @@ ul.nav-links a{
   color: #311B92;
 
 }
+.nav-links a.active {
+    color:lime;
+    font-weight: bold;
+    }
+
 
 
 ul.nav-links li {
@@ -58,10 +63,10 @@ header{
     top:0;
     width:100%;
 }
-
+/* 
 main{
 margin-top: 185px;
-}
+} */
 
 
 
@@ -108,10 +113,6 @@ margin-top: 185px;
     text-transform: uppercase;
     } */
     
-    .nav-links a.active {
-    color:Black;
-    font-weight: bold;
-    }
-
+    
 
 } 

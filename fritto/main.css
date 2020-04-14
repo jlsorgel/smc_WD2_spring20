@@ -3,14 +3,14 @@
 @import url('theme.css');
 
 
-
-/* first responsive site */
+/* --------------------------------- */
 
 body{
   margin:0px;
   font-family: 'Montserrat',arial, serif;
   background-color: #F9F7ED;
 }
+
 
 h1{
   float: left;
@@ -22,13 +22,18 @@ h1{
 
 
 
-.img{
-  max-width: 100%;
-  height: auto;
+img { 
+  width: 100%; 
+} 
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: white;
+  text-align: center;
 }
-
-
-
 
 
 /* --------------------------- */
@@ -63,7 +68,4 @@ h1{
     width:960px;
     margin: auto;
   }
-
-
-  
 }

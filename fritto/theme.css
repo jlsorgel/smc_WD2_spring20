@@ -1,29 +1,26 @@
 @import url("colors.css");
 
 /* first responsive site */
-body{
-  margin:0px;
-  font-family: 'Montserrat',arial, serif;
-  background-color: #F9F7ED;
-}
 
-header{
-  position: sticky;
-  background: white;
-}
+
 
 .logo{
   max-width:200px;
+
   }
 
 
 #toggleassist,
 ul.nav-links {
   display:none;
+  font-family:  'Homemade Apple';
 }
 
 #toggleassist:checked + ul.nav-links{
   display:block;
+  height: 100vh;
+  text-align: center;
+  font-size: 2em;
 }
 
 .toggle-button{
@@ -34,21 +31,23 @@ ul.nav-links {
 ul.nav-links{
   list-style: none;
   padding-left: 0px;
+  
+   
 }
 
 
 
 ul.nav-links a{
   text-decoration: none;
-  text-transform: uppercase;
-  color: #311B92;
+  /* text-transform: uppercase; */
+  color: #731702;
 
 }
 
 
 ul.nav-links li {
-  padding: 10px;
-  border-bottom: 2px solid rebeccapurple;
+  padding: 20px;
+  /* border-bottom: 2px solid rebeccapurple; */
 }
 
 
@@ -56,6 +55,11 @@ ul.nav-links li {
 /* begin mid-screen media query */
 
 @media (min-width: 550px){
+
+  /* .logo{
+    display:inline-block;
+    
+  } */
   .toggle-button{
     display:none;
   }
@@ -68,8 +72,10 @@ ul.nav-links li {
   ul.nav-links li{
     display:inline-block;
     border-bottom: none;
-    margin-top:15px;
+    /* margin-top:15px; */
   }
+
+  
 
 }
 
@@ -78,12 +84,20 @@ ul.nav-links li {
 
 @media(min-width: 960px){
   header {
-   
     margin: auto;
+    z-index: 1;
   }
 
   .logo{
-  max-width:none;
+  max-width: 350px;
+  z-index:1;
+  }
+
+  .heroimage{
+    margin-top: -80px;
+    z-index: 0;
+        /* height: 70vh !important;
+    min-height: 0px !important; */
   }
 
 
