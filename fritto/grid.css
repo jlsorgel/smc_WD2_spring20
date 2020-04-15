@@ -4,6 +4,12 @@
   padding:30;
   
 }
+
+.quote{
+   max-width: 1000px;
+   margin: auto;
+}
+
 .quote p{
   font-family: Homemade Apple;
   margin: 10;
@@ -61,7 +67,7 @@
 
 /* LARGE-screen media query */
 
-@media (min-width: 800px){
+@media (min-width: 1000px){
 
 .grid {
   margin-left:70px;
@@ -108,12 +114,19 @@
      grid-column: 3/-1;
     }
 
+  
+    
+  .locationheading{
+    grid-row: 4;
+    grid-column: 1/-1;
+  }
+
 
 
 
 
   .imageleft, .imageright{
-    grid-row: 3/4;
+    grid-row: 5/6;
   }  
     .imageleft{
       grid-column: 1/4;
