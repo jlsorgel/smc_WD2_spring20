@@ -5,7 +5,9 @@
   
 }
 .quote p{
-  font-family: Homemade Apple;}
+  font-family: Homemade Apple;
+  margin: 10;
+}
 
 .grid{
  
@@ -19,13 +21,38 @@
   
 }
 
+.textbox{
+    margin: 35 50 50 50px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    }
+
+
+.textbox p{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.textbox a{
+  text-transform: uppercase;
+  border-bottom: 1px solid #272727;
+  padding-bottom: 6px;
+}
+  
+
+
+
 
 
 
 /* MID-screen media query */
 
 @media (min-width: 747px){
-  
+  .quote p{
+    margin: 0px;
+  }
 }
 
   
@@ -34,15 +61,19 @@
 
 /* LARGE-screen media query */
 
-@media (min-width: 769px){
+@media (min-width: 800px){
 
 .grid {
   margin-left:70px;
   margin-right:70px;
   grid-template-columns: repeat(6,1fr);
   grid-gap:10%;
-  text-align: center;
+  
 }
+
+  .quote p{
+    margin: 10px 100px 10px 100px;
+  }
 
 
 

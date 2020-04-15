@@ -4,11 +4,15 @@
   top:0;
   width: 100%;
   background-color: #F9F7ED;
-  position: absolute;
+  text-align: left;
+ 
 }
 
+
+
 .logo{
-  max-width:200px;
+ max-width:200px;
+ 
 }
 
 
@@ -45,9 +49,15 @@ ul.nav-links a{
 
 }
 
+ul.nav-links a:hover {
+  border-bottom: 1px solid #731702;
+}
+
+
+
 
 ul.nav-links li {
-  padding: 20px;
+  padding: 10px;
   
 }
 
@@ -60,9 +70,13 @@ ul.nav-links li {
 
 /* begin mid-screen media query */
 
-@media (min-width: 550px){
+@media (min-width: 720px){
 
- 
+  .nav{
+     height: 80px;
+  }
+
+   
   .toggle-button{
     display:none;
   }
@@ -70,11 +84,14 @@ ul.nav-links li {
   ul.nav-links{
     display:block;
     float:right;
+    padding-top: 15;
+    
   }
 
   ul.nav-links li{
     display:inline-block;
     border-bottom: none;
+    padding-right: 25px;
     /* margin-top:15px; */
   }
 
@@ -82,25 +99,24 @@ ul.nav-links li {
 
 
 
+@media(min-width: 900px){ 
+  .logo{
+  max-width: 350px;
+  z-index:1;
+  }
+ 
+  ul.nav-links{
+    margin-right: 50px;
+}
 
 
 /* BEGIN mid-screen media query */
 
 
-@media(min-width: 960px){
+
  
 
-  .logo{
-  max-width: 350px;
-  z-index:1;
-  }
-
-  .heroimage{
-    margin-top: -80px;
-    z-index: 0;
-        /* height: 70vh !important;
-    min-height: 0px !important; */
-  }
+  
 
 
-}
+
