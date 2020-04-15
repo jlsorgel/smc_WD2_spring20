@@ -10,12 +10,22 @@
 }
 
 body{
-  font-family: 'Montserrat',arial, serif;
+  
   background-color: #F9F7ED;
 }
 
+p{
+  font-family: Josefin Slab, Arial, Helvetica, sans-serif;
+}
 
+h1{
+  /* font-family:Fredericka the Great; */
+  font-family:Homemade Apple,Arial, Helvetica, sans-serif ;
+}
 
+h3{
+   font-family:Josefin Slab,Arial, Helvetica, sans-serif ;
+}
 
 .heroimage{ 
   width: 100%; 
@@ -50,7 +60,7 @@ footer {
 /* MID-screen media query */
 
 @media (min-width: 747px){
-  
+
 }
 
   
@@ -61,8 +71,8 @@ footer {
 
 
 @media(min-width: 960px){
-  header {
+  /* header {
     width:960px;
     margin: auto;
-  }
+  } */
 }

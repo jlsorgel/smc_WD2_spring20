@@ -1,4 +1,11 @@
 
+.nav{
+  position: fixed; 
+  top:0;
+  width: 100%;
+  background-color: #F9F7ED;
+  position: absolute;
+}
 
 .logo{
   max-width:200px;
@@ -81,10 +88,7 @@ ul.nav-links li {
 
 
 @media(min-width: 960px){
-  header {
-    margin: auto;
-    z-index: 1;
-  }
+ 
 
   .logo{
   max-width: 350px;

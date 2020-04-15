@@ -1,5 +1,95 @@
 
+.quote{
+  text-align: center;
+  padding:30;
+  
+}
+.quote p{
+  font-family: Homemade Apple;}
+
+.grid{
+ 
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.gridimages{
+  width:100%;
+ 
+  
+}
 
 
-@media (min-width: 960px){
-.grid {grid-template-columns:repeat(3,1fr)}}
+
+
+/* MID-screen media query */
+
+@media (min-width: 747px){
+  
+}
+
+  
+
+
+
+/* LARGE-screen media query */
+
+@media (min-width: 769px){
+
+.grid {
+  margin-left:70px;
+  margin-right:70px;
+  grid-template-columns: repeat(6,1fr);
+  grid-gap:10%;
+  text-align: center;
+}
+
+
+
+  .image1, .menutext{
+    grid-row: 1/2;
+  }
+
+    .image1{
+      grid-column: 1/5;
+    }
+
+    .menutext{
+      grid-column: 4/-1;
+      align-self: center;
+    }
+
+
+
+
+
+  .abouttext, .image2{
+    grid-row: 2/3;
+  }
+
+    .abouttext{
+     grid-column: 1/4;
+     align-self: center;
+    
+    }
+
+   .image2{
+     grid-column: 3/-1;
+    }
+
+
+
+
+
+  .imageleft, .imageright{
+    grid-row: 3/4;
+  }  
+    .imageleft{
+      grid-column: 1/4;
+    }  
+
+    .imageright{
+      grid-column: 4/-1 ;
+    }
+
+}
