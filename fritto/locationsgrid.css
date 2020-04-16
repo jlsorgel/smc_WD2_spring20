@@ -1,23 +1,25 @@
-
-.quote{
+.lh-heading{
   text-align: center;
-  padding:30;
-    max-width: 1000px;
-   margin: auto;
+  
+/*     
+   margin: auto; */
    background-color: white;
+  margin-top: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 
-.quote p{
+/* .quote p{
   font-family: Homemade Apple;
   margin: 10;
-}
+} */
 
 main{
   background-color: #F9F7ED;
 }
 
-.grid{
+.lh-grid{
  
   display: grid;
   grid-template-columns: 1fr;
@@ -50,44 +52,13 @@ main{
   padding-bottom: 6px;
 }
 
-.locationbox .gridimages{
- margin-bottom: 50px;
-}
 
 
-/* .imageleft{
-  position: relative; 
-  width:100%;
-  margin: 0 auto;} /* Center it */
-
-/* .imageleft .textoverlay{
-  position: absolute; 
-  background: rgba(0, 0, 0, 0.5);
-  top: 0; right: 0;
-	bottom: 0; left: 0;
-	 text-align: center;
-  opacity: 2;
-  margin: auto;
-  
- 
-
-}
-
-.imageleft .textoverlay h1{
-  position: absolute;
-  top:45%;
-  right:50%;
- 
-} */
-  
-/*
-
-/* MID-screen media query */
 
 @media (min-width: 747px){
-  .quote p{
+  /* .quote p{
     margin: 0px;
-  }
+  } */
 }
 
   
@@ -98,7 +69,7 @@ main{
 
 @media (min-width: 1000px){
 
-.grid {
+.lh-grid {
   margin-left:70px;
   margin-right:70px;
   grid-template-columns: repeat(6,1fr);
@@ -106,13 +77,9 @@ main{
   
 }
 
-  .quote p{
-    margin: 10px 100px 10px 100px;
-  }
 
 
-
-  .image1, .menutext{
+  .image1, .sm-text{
     grid-row: 1/2;
   }
 
@@ -120,7 +87,7 @@ main{
       grid-column: 1/5;
     }
 
-    .menutext{
+    .sm-text{
       grid-column: 4/-1;
       align-self: center;
     }
@@ -145,24 +112,9 @@ main{
 
   
     
-  .locationheading{
-    grid-row: 4;
-    grid-column: 1/-1;
-  }
+  
 
 
 
-
-
-  .imageleft, .imageright{
-    grid-row: 5/6;
-  }  
-    .imageleft{
-      grid-column: 1/4;
-    }  
-
-    .imageright{
-      grid-column: 4/-1 ;
-    }
 
 }

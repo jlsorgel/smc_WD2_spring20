@@ -70,7 +70,7 @@ ul.nav-links li {
 
 /* begin mid-screen media query */
 
-@media (min-width: 720px){
+@media (min-width: 768px){
 
   .nav{
      height: 80px;
@@ -91,7 +91,7 @@ ul.nav-links li {
   ul.nav-links li{
     display:inline-block;
     border-bottom: none;
-    padding-right: 25px;
+    padding-right: 20px;
     /* margin-top:15px; */
   }
 
@@ -99,7 +99,7 @@ ul.nav-links li {
 
 
 
-@media(min-width: 900px){ 
+@media(min-width: 970px){ 
   .logo{
   max-width: 350px;
   z-index:1;
@@ -114,7 +114,6 @@ ul.nav-links li {
 
 
 
- 
 
   
 
