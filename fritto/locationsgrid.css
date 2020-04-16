@@ -26,13 +26,13 @@ main{
   /* background-color: #F9F7ED; */
 }
 
-.gridimages{
+.lh-gridimages{
   width:100%;
  
   
 }
 
-.textbox{
+.lh-textbox{
     margin: 35 50 50 50px;
     padding-top: 30px;
     padding-bottom: 40px;
@@ -41,15 +41,15 @@ main{
     }
 
 
-.textbox p{
+.sm-textbox p{
   margin-top: 10px;
   margin-bottom: 20px;
 }
 
-.textbox a{
+.sm-textbox a{
   text-transform: uppercase;
   border-bottom: 1px solid #272727;
-  padding-bottom: 6px;
+
 }
 
 
@@ -79,7 +79,7 @@ main{
 
 
 
-  .image1, .sm-text{
+  .image1, .sm-textbox{
     grid-row: 1/2;
   }
 
@@ -87,7 +87,7 @@ main{
       grid-column: 1/5;
     }
 
-    .sm-text{
+    .sm-textbox{
       grid-column: 4/-1;
       align-self: center;
     }
