@@ -1,29 +1,19 @@
+
+
 .lh-heading{
   text-align: center;
-  
-/*     
-   margin: auto; */
-  
   margin-top: 100px;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
 
-/* .quote p{
-  font-family: Homemade Apple;
-  margin: 10;
-} */
 
-main{
-  background-color: #F9F7ED;
-}
 
 .lh-grid{
  
   display: grid;
   grid-template-columns: 1fr;
-  background-color: #F9F7ED;
   margin-left:50px;
   margin-right:50px;
 }
@@ -40,6 +30,7 @@ main{
     padding-bottom: 10px;
     padding-left: 15px;
     padding-right: 15px;
+    margin-bottom: 40px;
     }
 
 
@@ -59,10 +50,13 @@ main{
   margin-top:10px;
 }
 
+    
 
 
 
 @media (min-width: 747px){
+
+
   
 .lh-grid{
  
@@ -73,11 +67,20 @@ main{
   margin-right:50px; */
 }
 
+.lh-textbox{
+  margin-bottom: 0px;
+}
+
 
 
 /* LARGE-screen media query */
 
 @media (min-width: 1000px){
+
+
+
+
+
 .lh-grid{
  
   grid-template-columns: repeat(6,1fr);

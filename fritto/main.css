@@ -33,9 +33,7 @@ h3{
 
 .heroimage{ 
   width:100%;
-  /* width: 60%;
-  margin-left:40%;
-  margin-right: 0%; */
+  margin-top: 100px;
 } 
 
 
@@ -43,6 +41,10 @@ h3{
   padding-top: 80px;
  
 } */
+
+main{
+  background-color:#F9F7ED;
+}
 
 
 a{
@@ -52,6 +54,16 @@ a{
   letter-spacing: 0.01em;
 }
 
+
+.lh-grid-home{
+    margin-top: -40px;
+}
+
+.lh-heading-home{
+  /* margin-top: 100px; */
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 
 
 footer {
@@ -63,11 +75,10 @@ footer {
 }
 
 
-/* --------------------------- */
 
-
-
-
+.heroimage{ 
+  margin-top: 80px;
+} 
 
 
 
@@ -93,5 +104,17 @@ footer {
 
 
 @media(min-width: 960px){
+
+  .heroimage{ 
+    margin-top: 0px;
+  } 
+
+
+  .lh-heading-home{/* for index page only */
+    margin-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 55px;
+  }
+
   
 }
