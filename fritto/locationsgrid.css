@@ -24,6 +24,8 @@ main{
   display: grid;
   grid-template-columns: 1fr;
   background-color: #F9F7ED;
+  margin-left:50px;
+  margin-right:50px;
 }
 
 .lh-gridimages{
@@ -72,7 +74,7 @@ main{
 .lh-grid {
   /* margin-left:50px;
   margin-right:50px; */
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(6,1fr);
   /* grid-gap:1%; */
   
 }
@@ -82,13 +84,13 @@ main{
   }
 
     .hb-text{
-     grid-column: 1/2;
-     /* align-self: center; */
-    
+     grid-column: 1/3;
+     align-self: center;
+     margin-right:100px;
     }
 
    .hb-image{
-     grid-column: 2/3;
+     grid-column: 2/4;
     }
 
     
@@ -98,21 +100,18 @@ main{
   }
 
     .sm-image{
-      grid-column: 3/4;
+      grid-column: 4/-2;
     }
 
     .sm-textbox{
-      grid-column: 4/-1;
+      grid-column: 5/-1;
       align-self: center;
+      margin-left:100px;
+      /* margin: 35 50 0 -50px; */
     }
 
-  .hb-text{
-    margin: 35 -50 120 50px;
-  }
-   .sm-textbox{
-    margin: 35 50 0 -50px;
-  }
 
+   
 
 
 
