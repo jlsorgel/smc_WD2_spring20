@@ -1,9 +1,10 @@
+
 .lh-heading{
   text-align: center;
   
 /*     
    margin: auto; */
-  
+   background-color: white;
   margin-top: 100px;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -23,7 +24,7 @@ main{
  
   display: grid;
   grid-template-columns: 1fr;
-  background-color: #F9F7ED;
+  /* background-color: #F9F7ED; */
 }
 
 .lh-gridimages{
@@ -33,11 +34,11 @@ main{
 }
 
 .lh-textbox{
-    /* margin: 35 50 50 50px; */
-    padding-top: 15px;
-    padding-bottom: 20px;
-    padding-left: 15px;
-    padding-right: 15px;
+    margin: 35 50 50 50px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
     }
 
 
@@ -70,58 +71,39 @@ main{
 @media (min-width: 1000px){
 
 .lh-grid {
-  /* margin-left:50px;
-  margin-right:50px; */
-  grid-template-columns: repeat(4,1fr);
-  /* grid-gap:1%; */
+  margin-left:50px;
+  margin-right:50px;
+  grid-template-columns: repeat(6,1fr);
+  grid-gap:0%;
   
 }
 
- .hb-text, .hb-image{
-    grid-row: 1/1;
+ .hb-text, .image2{
+    grid-row: 1/2;
   }
 
     .hb-text{
-     grid-column: 1/2;
-     /* align-self: center; */
+     grid-column: 2/4;
+     align-self: center;
     
     }
 
-   .hb-image{
-     grid-column: 2/3;
+   .image2{
+     grid-column: 4/-2;
     }
 
     
 
-  .sm-image, .sm-textbox{
-    grid-row: 1/1;
+  .image1, .sm-textbox{
+    grid-row: 2/3;
   }
 
-    .sm-image{
-      grid-column: 3/4;
+    .image1{
+      grid-column: 1/4;
     }
 
     .sm-textbox{
-      grid-column: 4/-1;
+      grid-column: 3/-1;
       align-self: center;
     }
 
-  .hb-text{
-    margin: 35 -50 120 50px;
-  }
-   .sm-textbox{
-    margin: 35 50 0 -50px;
-  }
-
-
-
-
- 
-  
-    
-  
-
-
-
-
-}
