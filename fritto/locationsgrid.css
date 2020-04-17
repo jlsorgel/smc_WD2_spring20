@@ -37,21 +37,26 @@ main{
 .lh-textbox{
     /* margin: 35 50 50 50px; */
     padding-top: 15px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     padding-left: 15px;
     padding-right: 15px;
     }
 
 
-.sm-textbox p{
+.lh-textbox p{
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
-.sm-textbox a{
+.lh-textbox a{
   text-transform: uppercase;
   border-bottom: 1px solid #272727;
+ 
 
+}
+
+.lh-textbox h2{
+  margin-top:10px;
 }
 
 
@@ -109,6 +114,11 @@ main{
       margin-left:100px;
       /* margin: 35 50 0 -50px; */
     }
+
+
+  .lh-grid h1{
+    font-size: 1.8em;
+  }
 
 
    
