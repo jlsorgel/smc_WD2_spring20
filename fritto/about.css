@@ -1,0 +1,129 @@
+.about-grid{
+  margin-top: 40px;
+  display:grid;
+  grid-template-columns: 1fr;
+}
+ 
+
+
+.about-gridimages{
+  width:100%;
+} 
+
+.about-videobox{
+
+  position:relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.about-videobox iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index:0;
+}
+
+.about-imagebox-1{
+   grid-row-start: 4;
+}
+
+.about-textbox{
+  margin:20 40 40 40;
+}
+
+
+
+
+
+
+
+
+/* MID SCREEN STARTS HERE!! */
+
+@media (min-width: 747px){
+
+.about-imagebox-1{
+   grid-row-start: none;
+  }
+
+.about-grid{
+  grid-template-columns: 1fr 1fr;
+  }
+
+
+.about-textbox{
+  margin-left: 10;
+  margin-bottom:0;
+  margin-right: 10;
+}
+.about-textbox-1{
+  margin-top: -5;
+}
+
+
+
+
+.about-textbox-2, .about-textbox-3{
+  margin-top: 20;
+}
+
+
+.about-textbox-4{
+  grid-column: 1/3;
+}
+
+.about-textbox-4{
+  margin-bottom: 20px;
+}
+
+
+
+}
+  
+
+
+/* LARGE STARTS HERE!!!! */
+
+@media (min-width: 1000px){
+  .about-grid{
+  margin-top: 40px;
+  margin-left: 65px;
+  margin-right: 65px;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0%;
+  
+}
+
+
+
+.about-textbox{
+  margin: 0 70 10 70;
+  align-self: center;
+  line-height: 1.2;
+}
+
+
+.about-imagebox-1{
+  margin-left: 15px;
+}
+
+.about-videobox{
+  margin-right: 15px;
+}
+
+.about-textbox-3{
+  margin-top:10px;
+  }
+
+.about-textbox-4{
+  padding-top:20px;
+}
+
+
+
+
+
+}
