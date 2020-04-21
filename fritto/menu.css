@@ -66,11 +66,11 @@ text-align: center;
 
    .menu_item {
     margin: 0 60px;
-    /* position: relative; */
+    
    
   }
    .price {
-    /* display: block; */
+   
     float: right;
   
     font-weight: bold;
@@ -91,44 +91,6 @@ text-align: center;
 
 
 }
-
-
-/* 
-.menu_section h3 {
-text-align: center;
- font-size: 30px;
-        }
-
-        .menu_item {
-          text-align: center;
-        }
-
-        .price {
-          float: none;
-          position: static;
-          margin-top: 15px;
-        }
-
-        hr {
-          display: none;
-        }
-
-
-        
-      
-
-@media (min-width: 575px)
- 
-      
-      
-      
-      
-      
-      
-      
-      
-      
-
 
 
 
@@ -177,49 +139,3 @@ text-align: center;
       
       
       
-      
-/*     
-
-      .menu_section {
-        margin-bottom: 30px;
-      }
-
-      .menu_section h3 {
-        font-style: italic;
-      }
-
-      .menu_item {
-        margin: 0 15px;
-        position: relative;
-      }
-
-      .menu_item h4 {
-        margin-bottom: 0px;
-      }
-
-      .price {
-        display: block;
-        float: right;
-        position: absolute;
-        bottom: 0px;
-        right: 0;
-        background-color: white;
-        font-weight: bold;
-      }
-
-      .description {
-        margin-top: 5px;
-        font-style: italic;
-        background-color: white;
-        display: inline-block;
-        max-width: 50%;
-      }
-
-      hr {
-        border: none;
-        border-top: 1px dotted black;
-        margin-top: -20px;
-      }
-
-  }
-       */
