@@ -9,6 +9,7 @@
     rel="stylesheet">
 
   <link rel="stylesheet" href="main.css">
+
 </head>
 
 <body>
@@ -43,7 +44,8 @@
         <li><a href="about.html">About</a></li>
         <li><a href="menu.html">Menu</a></li>
         <li><a href="locationandhours.html">Locations + Hours</a></li>
-        <li><a href="https://direct.chownow.com/order/37/locations/42">Delivery</a></li>
+        <li><a href="https://direct.chownow.com/order/37/locations/42">Delivery</a>
+        </li>
       </ul>
 
 
@@ -63,88 +65,132 @@
   <!-- BODY CONTENT STARTS HEREE! -->
   <main>
 
-    <div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="menu">
-      <div class="w3-content">
 
-        <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">THE MENU</h1>
-        <div class="w3-row w3-center w3-border w3-border-dark-grey">
-          <a href="javascript:void(0)" onclick="openMenu(event, 'Pizza');" id="myLink">
-            <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Pizza</div>
-          </a>
-          <a href="javascript:void(0)" onclick="openMenu(event, 'Pasta');">
-            <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Salads</div>
-          </a>
-          <a href="javascript:void(0)" onclick="openMenu(event, 'Starter');">
-            <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Starter</div>
-          </a>
+
+
+
+    <section class="menu">
+      <h1 class="menu_title">Menu</h1>
+
+      <img class="menu_image" src="images/pillows_chownow.jpg" alt="Fritto Misto Pillows">
+
+
+      <div class="menu_section ">
+        <h3>Appetizers</h3>
+
+
+
+
+        <div class="menu_item ">
+          <h4 class="name">Fritto Misto (serves 2-4)</h4>
+          <span class="price">$21.00</span>
+          <p class="description">Shrimp, calamari, artichoke hearts, and seasonal vegetables in a light spicy batter,
+            quick fried in vegetable oil and served with
+            cocktail sauce and roasted garlic mayonnaise dipping sauce (May take a while, please be patient)</p>
+          <hr>
         </div>
 
-        <div id="Pizza" class="w3-container menu w3-padding-32 w3-white">
-          <h1><b>Margherita</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$12.50</span></h1>
-          <p class="w3-text-grey">Fresh tomatoes, fresh mozzarella, fresh basil</p>
+        <div class="menu_item ">
+          <h4 class="name">Calamari</h4>
+          <span class="price">$10.50, $18.00</span>
+          <p class="description">Deep fried in a spicy batter and served
+            with cocktail sauce and roasted garlic
+            mayonnaise dipping sauce</p>
           <hr>
-
-          <h1><b>Formaggio</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$15.50</span></h1>
-          <p class="w3-text-grey">Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p>
-          <hr>
-
-          <h1><b>Chicken</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$17.00</span></h1>
-          <p class="w3-text-grey">Fresh tomatoes, mozzarella, chicken, onions</p>
-          <hr>
-
-          <h1><b>Pineapple'o'clock</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$16.50</span></h1>
-          <p class="w3-text-grey">Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil</p>
-          <hr>
-
-          <h1><b>Meat Town</b> <span class="w3-tag w3-red w3-round">Hot!</span><span
-              class="w3-right w3-tag w3-dark-grey w3-round">$20.00</span></h1>
-          <p class="w3-text-grey">Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</p>
-          <hr>
-
-          <h1><b>Parma</b> <span class="w3-tag w3-grey w3-round">New</span><span
-              class="w3-right w3-tag w3-dark-grey w3-round">$21.50</span></h1>
-          <p class="w3-text-grey">Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p>
         </div>
 
-        <div id="Pasta" class="w3-container menu w3-padding-32 w3-white">
-          <h1><b>Lasagna</b> <span class="w3-tag w3-grey w3-round">Popular</span> <span
-              class="w3-right w3-tag w3-dark-grey w3-round">$13.50</span></h1>
-          <p class="w3-text-grey">Special sauce, mozzarella, parmesan, ground beef</p>
+        <div class="menu_item ">
+          <h4 class="name">Fried Pillows</h4>
+          <span class="price">$12.00</span>
+          <p class="description">Fresh Mozzarella with sliced Roma
+            tomatoes, fresh basil and balsamic
+            vinaigrette (6 pieces)</p>
           <hr>
-
-          <h1><b>Ravioli</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$14.50</span></h1>
-          <p class="w3-text-grey">Ravioli filled with cheese</p>
-          <hr>
-
-          <h1><b>Spaghetti Classica</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$11.00</span></h1>
-          <p class="w3-text-grey">Fresh tomatoes, onions, ground beef</p>
-          <hr>
-
-          <h1><b>Seafood pasta</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$25.50</span></h1>
-          <p class="w3-text-grey">Salmon, shrimp, lobster, garlic</p>
         </div>
-
-
-        <div id="Starter" class="w3-container menu w3-padding-32 w3-white">
-          <h1><b>Today's Soup</b> <span class="w3-tag w3-grey w3-round">Seasonal</span><span
-              class="w3-right w3-tag w3-dark-grey w3-round">$5.50</span></h1>
-          <p class="w3-text-grey">Ask the waiter</p>
-          <hr>
-
-          <h1><b>Bruschetta</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$8.50</span></h1>
-          <p class="w3-text-grey">Bread with pesto, tomatoes, onion, garlic</p>
-          <hr>
-
-          <h1><b>Garlic bread</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$9.50</span></h1>
-          <p class="w3-text-grey">Grilled ciabatta, garlic butter, onions</p>
-          <hr>
-
-          <h1><b>Tomozzarella</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
-          <p class="w3-text-grey">Tomatoes and mozzarella</p>
-        </div><br>
-
       </div>
-    </div>
+      <img class="menu_image" src="images/chickenpasta.jpg" alt="Chicken Pasta">
+
+
+      <div class="menu_section ">
+        <h3>Pasta Specialties </h3>
+
+
+        <div class="menu_item">
+          <h4 class="name">Cajun Seared Chicken</h4>
+          <span class="price">$14.00</span>
+          <p class="description"> Spicy chicken tenders, garlic cream, tossed with red bell pepper fettuccine, garnished
+            with green onions (spicy)</p>
+          <hr>
+        </div>
+
+        <div class="menu_item">
+          <h4 class="name">Pasta New Orleans </h4>
+          <span class="price">$24.00</span>
+          <p class="description">Cajun seared chicken and shrimp, Cajun cream sauce, red onions, bell peppers (green,
+            red
+            &amp; yellow, as available) sautéed mushrooms on Tabasco linguini (spicy)</p>
+          <hr>
+        </div>
+
+        <div class="menu_item ">
+          <h4 class="name">Garlic Shrimp </h4>
+          <span class="price">$27.00</span>
+          <p class="description">Sauteed in herb butter, garlic and brandy, tossed with black and white pasta</p>
+          <hr>
+        </div>
+
+        <div class="menu_item ">
+          <h4 class="name">Artichoke Shrimp Gnocchi</h4>
+          <span class="price">$19.00</span>
+          <p class="description">Gnocchi stuffed with artichoke paté tossed in with shrimp in chardonnay lemon sage
+            cream
+          </p>
+          <hr>
+        </div>
+      </div>
+      <img class="menu_image" src="images/dessert_cake.jpg" alt="Flourless Chocolate Cake">
+
+
+      <div class="menu_section ">
+        <h3>Homemade Desserts</h3>
+
+        <div class="menu_item ">
+          <h4 class="name">Flourless Chocolate Cake </h4>
+          <span class="price">$6.50</span>
+          <p class="description">​Rich, dark and dense with whipped cream</p>
+          <hr>
+        </div>
+
+        <div class="menu_item ">
+          <h4 class="name">Crème Bruleé </h4>
+          <span class="price">$6.50</span>
+          <p class="description">Silky custard with caramelized sugar topping</p>
+          <hr>
+        </div>
+
+        <div class="menu_item">
+          <h4 class="name">Tiramisu “For Two” </h4>
+          <span class="price">$12.00 </span>
+          <p class="description">Lady fingers soaked in espresso, layered with cocoa and mascarpone cheese</p>
+          <hr>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   </main><!-- END BODY CONTENT END!! -->
@@ -157,7 +203,8 @@
   <footer>
     <!-- FOOTER STARTS HEREEE -->
     <h3>Contact Us</h3>
-    <p>Santa Monica (310) 458-2829
+    <p>Santa Monica (310) 458-2829</P>
+    <p>
       Hermosa Beach (310) 318-6098</p>
 
   </footer><!-- END FOOTER END -->

@@ -3,6 +3,7 @@
 @import url('locationsgrid.css');
 @import url(about.css);
 @import url('nav.css');
+@import url('menu.css');
 
 
 /* --------------------------------- */
@@ -115,6 +116,14 @@ footer {
     margin-top: 50px;
     padding-top: 100px;
     padding-bottom: 55px;
+  }
+
+  footer{
+    padding-top:5px;
+  }
+
+  footer p{
+        font-size: 20px;
   }
 
   
