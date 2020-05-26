@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intro to JavaScript</title>
+  <style>
+    #header1 {
+      color: black;
+    }
+
+    .pane {
+      width: 100%;
+      height: 200px;
+    }
+
+
+    #tealPane {
+      background-color: teal;
+    }
+  </style>
+
+</head>
+
+
+
+
+<body>
+
+  <h1 id="header1">Intro to Java </h1>
+
+  <section>
+    <div class="pane" id="tealPane"></div>
+    <button id="changeToRed">Change to Red</button>
+  </section>
+
+  <script>
+    // alert("Hello World!");
+
+
+    var response = prompt("what's your name?", "Kermit");
+    var myHeader = document.getElementById("header1");
+
+    var tealPane = document.getElementById("tealPane");
+    var redButton = document.getElementById("changeToRed");
+
+
+
+    // document.getElementById("header1").style.color = "purple";
+    // document.getElementById("header1").style.backgroundColor = "lightblue";
+    // document.getElementById("header1").style.fontSize = "56px";
+    // // document.getElementById("header1").innerText = "Innie";
+
+    myHeader.style.color = "red";
+    myHeader.style.backgroundColor = "plum";
+    myHeader.style.fontSize = "56px";
+
+    myHeader.innerText = "Hello," + response;
+    console.log("hi" + 5 + " PicklePants");
+
+    redButton.addEventListener("click", function () {
+      console.log("Click happend!");
+      tealPane.style.backgroundColor = "salmon";
+      var notification = document.createElement("h5");
+      notification.innerText = "This is red now";
+      tealPane.appendChild(notification);
+    });
+
+
+
+
+  </script>
+</body>
+
+</html>

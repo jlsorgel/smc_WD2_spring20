@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <header>
+
+    <form method="GET" action="">
+      <label for="groupSelect">Group</label>
+      <select id="groupSelect">
+        <option value="animals">Cute Animals</option>
+        <option value="food">Food</option>
+        <option value="nature">Nature</option>
+      </select>
+
+      <label for="catSelect">Category</label>
+      <select id="catSelect"></select>
+    </form>
+
+  </header>
+  <hr>
+
+
+  <script>
+    var groupSelect = document.getElementById("groupSelect");
+    var catSelect = document.getElementById("catSelect");
+
+    var catAnimals = ["Puppies", "Kittens", "Quokkas"];
+    var catFood = ["Coffee", "Dessert", "Cocktials", "Muffins", "Pineapples", "Onions"];
+    var catNature = ["Forests", "Beaches", "Mountains"];
+
+    groupSelect.addEventListener("change", function () {
+      console.log(groupSelect.value);
+
+      if (groupSelect.value == 'animals') {
+
+      }
+
+      else if (groupSelect.value == 'food') {
+
+      }
+
+      else if (groupSelect.value == 'nature') {
+
+      }
+
+      else {
+        //for all other cases 
+      }
+    })
+
+    var fillCategory = function (catArray) {
+      catArray.forEach(function (member) {
+        var pot = document.createElement('option');
+        opt.value = member;
+        opt.textContent = member;
+        catSelect.appendChild
+      })
+    }
+
+  </script>
+
+</body>
+
+</html>

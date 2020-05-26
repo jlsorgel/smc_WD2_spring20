@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <main>
+    <div>
+      <p id="someP">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, facere in. Laudantium, quasi ipsum numquam ad quos error minima, veritatis porro quam sed voluptate nostrum optio repellat, quia facere temporibus!</p>
+
+      <p class="long-paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, facere in. Laudantium, quasi ipsum numquam ad quos error
+      minima, veritatis porro quam sed voluptate nostrum optio repellat, quia facere temporibus
+      </p>
+    </div>
+
+    <button id="clickB"> Click Me </button>
+
+
+  </main>
+
+  <script src="http://code.jquery.com/jquery-3.5.1.js"></script>
+
+  <script>
+    // javascript---------------------------------
+    var myP = document.getElementById("someP");
+    var anotherP = document.getElementsByClassName('long-paragraph')[0];
+
+    document.getElementById("clickB").addEventListener("click",function(){
+      //do something
+    });
+
+    //jquery------------------------------------------------------
+    var myP = $("#someP");
+    var anotherP = $(".long-paragraph");
+
+    $("#clickB").click(function(){
+
+    });
+
+
+  </script>
+</body>
+</html>

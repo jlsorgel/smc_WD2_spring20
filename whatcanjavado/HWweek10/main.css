@@ -1,0 +1,33 @@
+body {
+  margin:0px;
+  text-align: center;
+}
+
+
+#fallWinterButton {
+  background-color: #A5F2F3;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top:10px;
+}
+
+#springSummerButton {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top:10px;
+}
+
+img {
+  margin-top: 20px;
+}
