@@ -1,7 +1,50 @@
+
+
 main{
   margin: auto;
   text-align: center;
+  margin-top:10px;
 }
+
+button{
+  margin-bottom: 20px;;
+}
+
+
+
+#pinkOnlyBtn{
+ color:#f7d5de;
+ background-color: transparent;
+		padding:8px 35px;
+  border:2px solid #f7d5de;
+  	font-size:18px;
+}
+
+
+#blueOnlyBtn{
+
+   color:#88acd0;
+ background-color: transparent;
+		padding:8px 35px;
+  border:2px solid #88acd0;
+  	font-size:18px;
+}
+
+
+#addBothBtn{
+	background:linear-gradient(to bottom, #b8e4f2 5%, #f7d5de 100%);
+	background-color:#b8e4f2;
+
+	display:inline-block;
+
+	color:#ffffff;
+	font-size:18px;
+	padding:10px 35px;
+  text-decoration:none;
+  border:0px;
+}
+
+.both{display:none};
 
 
 /* .gridImages{
@@ -10,3 +53,6 @@ main{
   flex-wrap: wrap;
   width:50%;
 } */
+
+
+
