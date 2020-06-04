@@ -17,11 +17,17 @@ $("#pinkOnlyBtn").click(function () {
 
 
 
+// $("#blueOnlyBtn").click(function () {
+//   $('.pink').replaceWith
+//     (`<img src="images/blueocran.jpg" width="300px" height="450px">,
+
+//     <img src="images/blueopen.jpg" width="300px" height="450px">
+// `);
+// });
+
 $("#blueOnlyBtn").click(function () {
-  $('.pink').replaceWith
+  $('.pink').fadeToggle(5000).append
     (`<img src="images/blueocran.jpg" width="300px" height="450px">,
-    
-    <img src="images/blueopen.jpg" width="300px" height="450px">
-`);
+       <img src="images/blueopen.jpg" width="300px" height="450px"> `);
 });
 
