@@ -1,4 +1,35 @@
-nav p{
+body{
+  margin:0;
+}
+
+.hero-image{ 
+  width:100%;
+
+} 
+
+
+
+
+.side-nav {
+  height: 100%; 
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; 
+  z-index: 1; 
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color:black;
+  overflow-x: hidden; 
+  padding-top: 60px;
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.side-nav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  transition: 0.3s;
   color: #296130;
   font-family: 'Playfair Display', serif;
   font-weight: 400;
@@ -6,127 +37,50 @@ nav p{
 }
 
 
-
-.nav{
-  position: fixed; 
-  top:0;
-  width: 100%;
-  /* background-color: #766c48; */
-    background-color: white;
-  text-align: left;
-  z-index:100;
- 
+/* When you mouse over the navigation links, change their color */
+.side-nav a:hover {
+  color: #f1f1f1;
 }
 
-.logo{
- max-width:125px; 
+/* Position and style the close button (top right corner) */
+.side-nav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
 }
 
-.logo-desktop{
-  display: none;
-}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+
+/* @media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;} */
 
 
-#toggle_assist,
-ul.nav-links {
-  display:none;
- 
-}
+/* START DESKTOP!!!!!! */
+@media(min-width: 970px){
 
-#toggle_assist:checked + ul.nav-links{
-  display:block;
-  height: 100vh;
-  text-align: center;
-  font-size: 2em;
-}
-
-.toggle-button{
-  width:40px;
-  float:right;
-  margin:15px;}
-
-ul.nav-links{
-  list-style: none;
-  padding-left: 0px;
-  color: #296130;
-  font-family: 'Playfair Display', serif;
-
-  
+  /* The sidenav */
+  .side-nav {
+    height: 100%;
+    width: 200px; 
    
-}
-
-ul.nav-links a{
-  text-decoration: none;
-   color: #296130;
-
- 
-
-}
-
-ul.nav-links a:hover {
-  border-bottom: 1px solid #296130;
-}
-
-ul.nav-links li {
-  padding: 10px;
-  
-}
-
-/* end nav---------------- */
-.hero-image{ 
-  width:100%;
-  margin-top: 150px;
-} 
-
-
-
-
-
-
-
-/* begin mid-screen media query */
-
-@media (min-width: 768px){
-
-  .nav{
-     height: 80px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 20px;
   }
+
 
   
-  .toggle-button{
-    display:none;
-  }
-
-  ul.nav-links{
-    display:block;
-    float:right;
-    padding-top: 15;
-    
-  }
-
-  ul.nav-links li{
-    display:inline-block;
-    border-bottom: none;
-    padding-right: 20px;
-    /* margin-top:15px; */
-  }
-
-  .logo{
- display:none;}
-
- .logo-desktop{
-   display:inline-block;
-   max-width: 150px;
- }
-
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
 }
 
 
-
-
-
-@media(min-width: 970px){ 
-
-  ul.nav-links{
-    margin-right: 50px;
-}
+}  /* END DESKTOP! */

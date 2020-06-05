@@ -1,0 +1,165 @@
+nav p{
+  color: #296130;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+
+}
+
+
+
+.nav{
+  position: fixed; 
+  top:0;
+  width: 100%;
+  /* background-color: #766c48; */
+    background-color: white;
+  text-align: left;
+  z-index:100;
+ 
+}
+
+.logo{
+ max-width:125px; 
+}
+
+.logo-desktop{
+  display: none;
+}
+
+
+#toggle_assist,
+ul.nav-links {
+  display:none;
+ 
+}
+
+#toggle_assist:checked + ul.nav-links{
+  display:block;
+  height: 100vh;
+  text-align: center;
+  font-size: 2em;
+}
+
+.toggle-button{
+  width:40px;
+  float:right;
+  margin:15px;}
+
+ul.nav-links{
+  list-style: none;
+  padding-left: 0px;
+  color: #296130;
+  font-family: 'Playfair Display', serif;
+
+  
+   
+}
+
+ul.nav-links a{
+  text-decoration: none;
+   color: #296130;
+
+ 
+
+}
+
+ul.nav-links a:hover {
+  border-bottom: 1px solid #296130;
+}
+
+ul.nav-links li {
+  padding: 10px;
+  
+}
+
+/* end nav---------------- */
+.hero-image{ 
+  width:100%;
+  margin-top: 150px;
+} 
+
+
+
+
+
+
+
+/* begin mid-screen media query */
+
+@media (min-width: 768px){
+
+  .nav{
+     height: 80px;
+  }
+
+  
+  .toggle-button{
+    display:none;
+  }
+
+  ul.nav-links{
+    display:block;
+    float:right;
+    padding-top: 15;
+    
+  }
+
+  ul.nav-links li{
+    display:inline-block;
+    border-bottom: none;
+    padding-right: 20px;
+    /* margin-top:15px; */
+  }
+
+  .logo{
+ display:none;}
+
+ .logo-desktop{
+   display:inline-block;
+   max-width: 150px;
+ }
+
+}
+
+
+
+
+
+@media(min-width: 970px){ 
+
+  ul.nav-links{
+    margin-right: 50px;
+}
+
+
+
+  <header>
+    <!-- NAV+ HEADER STARTS HERE!!!!! -->
+
+    <div class="nav">
+
+
+      <img class="logo" src="images/logo.jpg" alt="ESI Logo">
+
+
+      <img class="logo-desktop" src="images/logo2.jpg" alt="ESI Logo Desktop">
+
+
+      <label for="toggleassist">
+
+        <img class="toggle-button" src="images/hamburger@2x.png" alt=" hamburger menu icon">
+      </label>
+
+
+      <input type="checkbox" id="toggle_assist">
+
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="donate.html">Donate</a></li>
+
+      </ul>
+    </div>
+
+  </header><!-- END NAV + HEADER END -->
