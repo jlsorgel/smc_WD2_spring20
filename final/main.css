@@ -1,3 +1,5 @@
+@import url(nav.css);
+
 body{
   margin:0;
 }
@@ -9,78 +11,18 @@ body{
 
 
 
-
-.side-nav {
-  height: 100%; 
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; 
-  z-index: 1; 
-  top: 0; /* Stay at the top */
-  left: 0;
-  background-color:black;
-  overflow-x: hidden; 
-  padding-top: 60px;
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-}
-
-/* The navigation menu links */
-.side-nav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  display: block;
-  transition: 0.3s;
-  color: #296130;
-  font-family: 'Playfair Display', serif;
-  font-weight: 400;
+p {
+  text-align: center;
+    font-family: 'Playfair Display', serif;
+ 
+    margin-left: 20px;
+    margin-right: 20px;
 
 }
 
 
-/* When you mouse over the navigation links, change their color */
-.side-nav a:hover {
-  color: #f1f1f1;
+p.p-headline{
+  font-size: 1.3rem;
+  line-height: 1.4;
 }
 
-/* Position and style the close button (top right corner) */
-.side-nav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-
-/* @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;} */
-
-
-/* START DESKTOP!!!!!! */
-@media(min-width: 970px){
-
-  /* The sidenav */
-  .side-nav {
-    height: 100%;
-    width: 200px; 
-   
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: black;
-    overflow-x: hidden;
-    padding-top: 20px;
-  }
-
-
-  
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-#main {
-  transition: margin-left .5s;
-}
-
-
-}  /* END DESKTOP! */

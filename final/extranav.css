@@ -1,12 +1,5 @@
 
 
-header{
- 
-}
-
-.logo{
-  width:100%;
-}
 
 .side-nav {
   height: 100%; 
@@ -15,10 +8,10 @@ header{
   z-index: 1; 
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #756d48;
+  background-color:black;
   overflow-x: hidden; 
   padding-top: 60px;
-  transition: 0.5s; 
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
 
 /* The navigation menu links */
@@ -28,19 +21,19 @@ header{
   font-size: 25px;
   display: block;
   transition: 0.3s;
-  color: white;
+  color: #296130;
   font-family: 'Playfair Display', serif;
   font-weight: 400;
 
 }
 
 
-
+/* When you mouse over the navigation links, change their color */
 .side-nav a:hover {
-  color: #296130;
+  color: #f1f1f1;
 }
 
-
+/* Position and style the close button (top right corner) */
 .side-nav .closebtn {
   position: absolute;
   top: 0;
@@ -50,28 +43,30 @@ header{
 }
 
 
+
+/* START DESKTOP!!!!!! */
 @media(min-width: 970px){
+
   /* The sidenav */
   .side-nav {
     height: 100%;
-    width: 200px;
+    width: 200px; 
+   
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    /* background-color: #111; */
+    background-color: black;
     overflow-x: hidden;
     padding-top: 20px;
   }
 
-  /* Page content */
-  #main {
-    margin-left: 200px; /* Same as the width of the sidenav */
-  }
 
-
-  .side-nav .closebtn {
- display:none;
+  
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
 }
 
-}
+
+}  /* END DESKTOP! */
