@@ -23,7 +23,7 @@ header{
 
 /* The navigation menu links */
 .side-nav a {
-  padding: 8px 8px 8px 32px;
+  padding: 8px 0px 8px 0px;
   text-decoration: none;
   font-size: 25px;
   display: block;
@@ -31,6 +31,8 @@ header{
   color: white;
   font-family: 'Playfair Display', serif;
   font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
 
 }
 
