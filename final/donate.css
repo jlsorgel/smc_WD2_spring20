@@ -1,0 +1,33 @@
+.donations-text h2{
+  font-family: 'Playfair Display';
+  color: #444130; 
+  padding-top: 0px;
+}
+
+
+img {
+  width:100%;
+ 
+}
+
+
+.donations-image{
+  display: flex;
+  justify-content: center;
+    align-items: center;
+    width: 224px;
+    width: 14rem;
+    height: 224px;
+    height: 14rem;
+    padding: 0;
+    background: rgba(102, 119, 34, 0.39);;
+    border-radius: 50%;
+}
+
+@media(min-width: 768px){
+
+}
+
+@media(min-width: 970px){
+  
+}
