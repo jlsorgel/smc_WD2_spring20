@@ -51,6 +51,9 @@ header{
   margin-left: 50px;
 }
 
+#openNav{
+  text-align: left;
+}
 
 @media(min-width: 970px){
   /* The sidenav */
@@ -75,5 +78,12 @@ header{
   .side-nav .closebtn {
  display:none;
 }
+
+
+
+#openNav{
+  display: none;
+}
+
 
 }
