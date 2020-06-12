@@ -1,3 +1,11 @@
+/* :root {
+  --lightgreen: rgba(102, 119, 34, 0.39);
+  --uglygreen:rgb(117, 109, 72);
+  --headercolor:#444130;  
+  --main-padding: 15px;  
+} */
+
+
 .donations-text h2{
   font-family: 'Playfair Display';
   color: #444130; 
@@ -10,7 +18,7 @@
   width:100%;
     height: 100%;
   object-fit: cover;
-    background: rgba(102, 119, 34, 0.39);;
+    background: rgba(102, 119, 34, 0.39);
     border-radius: 50%;
 
 
@@ -62,6 +70,124 @@
     margin-top: 60px;
 }
 
+/* FORM!!!!!!!!!!!!! */
+
+
+form{
+  width:90%;
+  margin:auto;
+   text-align: left;
+  
+ 
+}
+
+
+.donation-amounts{
+ text-align: center;
+}
+
+
+  
+ .donation-amounts input[type=radio]{
+ 	display: none;
+}
+
+.donation-amounts label{
+	/* position: relative; */
+  /* color: #fff; */
+
+  border: 1px solid var(--uglygreen);
+  border-radius: 4px;
+  color:var(--uglygreen);
+
+	font-size: 26px;
+  font-weight:600;
+  text-align: center;
+	height: 70px;
+	line-height: 70px;
+	display: inline-block;
+  box-sizing: border-box;
+  /* margin-bottom:15px; */
+  margin:0px 10px 15px 10px ;
+  width:40%;
+
+   
+}
+
+
+.donation-amounts input:checked + label {
+	/* border: 3px solid #333; */
+  background-color: var(--darkgreen);
+  color:white;
+  margin-bottom:20px;
+}
+
+
+
+
+
+
+
+
+
+fieldset{
+  margin-bottom: 40px;
+  border: 1px solid var(--uglygreen);
+}
+
+legend{
+  /* text-align:center; */
+  font-family: 'play-fair display';
+  color:var(--headercolor);
+  margin-bottom: 20px;
+   font-size: 20px;
+   font-weight: 600;
+}
+
+label{
+  /* margin-top:15px; */
+ font-family: 'raleway';
+ text-transform: uppercase;
+  color:var(--headercolor);
+ font-size: 12px;
+     }
+
+
+input, select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0px 15px 0;
+  display: block;
+  border: 1px solid var(--uglygreen);
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: left;
+   /* background-color: #f7f7f5 ; */
+
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: var(--lightgreen);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+input[type=submit]:hover {
+  background-color: var(--darkgreen);
+}
+
+
+
+
+
+
+/* START TABLET HERE */
 @media(min-width: 768px){
   .donations-box{
     justify-content: space-between;
@@ -69,7 +195,21 @@
   }
 
   
+fieldset{
+  margin-bottom: 60px;
+  
+}
 
+
+
+
+  
+
+
+} /* End Tablet */
+
+
+/* START Desktop HERE */
 @media(min-width: 970px){
 
 
@@ -121,3 +261,9 @@
 
 
 }
+
+
+
+
+
+}/* End Desktop */

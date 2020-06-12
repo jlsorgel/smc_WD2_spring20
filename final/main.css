@@ -1,14 +1,28 @@
+
+
 @import url(nav.css);
 @import url(donate.css);
 
+:root {
+  --lightgreen: rgba(102, 119, 34, 0.39);
+  --uglygreen:rgb(117, 109, 72);
+  --headercolor:#444130;  
+  --darkgreen:#45a049;
+}
+  
+
+
+
+
 body{
   margin:0;
+  background-color: #f7f7f5 ;
+   text-align: center;
+
 }
 
-#main{
-  text-align: center;
-  background-color: #f7f7f5 ;
-}
+
+
 
 .hero-image{ 
   width:100%;
@@ -25,7 +39,7 @@ p {
 
     margin-left: 20px;
     margin-right: 20px;
-
+   
 }
 
 
@@ -76,6 +90,58 @@ button{
 
     h2{padding-top: 78px;}
   
+/* hereeeeeeeeeeeeeeeeeeeeeeee */
+/* FORM */
+
+/* 
+ .donation-amounts input[type=radio]{
+ 	display: none;
+}
+
+.donation-amounts label{
+	position: relative;
+	color: #fff;
+	background-color: #aaa;
+	font-size: 26px;
+	text-align: center;
+	height: 150px;
+	line-height: 150px;
+	display: block;
+	cursor: pointer;
+	border: 3px solid transparent;
+	box-sizing: border-box;
+}
+
+
+.donation-amounts input:checked + label {
+	border: 3px solid #333;
+	background-color: #2fcc71;
+}
+
+
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media(min-width: 768px){
   #grid-container {
@@ -85,7 +151,6 @@ button{
 }
 
 }
-
 
 footer {
   /* position: fixed; */
