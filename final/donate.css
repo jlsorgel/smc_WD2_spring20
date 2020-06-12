@@ -2,21 +2,14 @@
   font-family: 'Playfair Display';
   color: #444130; 
   padding-top: 0px;
+  margin-bottom:0px;
 }
 
 
 .donations-image img {
   width:100%;
-  
-  height: 100%;
+    height: 100%;
   object-fit: cover;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-position: center; 
-   
-    padding: 0;
     background: rgba(102, 119, 34, 0.39);;
     border-radius: 50%;
 
@@ -24,24 +17,52 @@
  
 }
 
-.donations-g img{
+.donations-image-g img{
      object-position: 1%;
 }
 
+.donations-text p{
+  margin-top:8px;
+}
+.donations-text-g p{
+     padding-left: 60px;
+    padding-right: 60px;
+}
+
+.donations-text-c p{
+     padding-left: 50px;
+    padding-right: 50px;
+}
+.donations-text-r p{
+ padding-left: 0px;
+ padding-right: 0px;
+
+}
+
+
+.donations-container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  align-content:center;
+  flex-wrap:wrap;
+}
 
 .donations-image{
-  display: flex;
-  justify-content: center;
-    align-items: center;
+  
 
     width: 14rem;
     height: 14rem;
     padding: 0;
     background: rgba(102, 119, 34, 0.39);;
     border-radius: 50%;
+    margin-top: 60px;
 }
 
 @media(min-width: 768px){
+  .donations-container{
+    justify-content: space-between;
+  }
 
 }
 
