@@ -138,11 +138,11 @@ fieldset{
 legend{
   /* text-align:center; */
   font-family: 'play-fair display';
-  color:var(--headercolor);
-  margin-bottom: 20px;
    font-size: 20px;
    font-weight: 600;
-}
+  color:var(--headercolor);
+  margin-bottom: 20px;
+ }
 
 label{
   /* margin-top:15px; */
@@ -178,11 +178,19 @@ input[type=submit] {
   text-align: center;
 }
 
-input[type=submit]:hover {
-  background-color: var(--darkgreen);
+
+input[type=submit] {
+  
+   font-family: 'play-fair display';
+   font-size: 20px;
+   font-weight: 600;
 }
 
 
+input[type=submit]:hover {
+  background-color: var(--darkgreen);
+  
+}
 
 
 

@@ -1,6 +1,7 @@
 
 
 
+
 // $("#openNav").click(function () {
 
 //   $("#side_nav").css({ "background-color": "blue" });
@@ -70,5 +71,3 @@ $(document).ready(function () {
 
 
 });
-
-
