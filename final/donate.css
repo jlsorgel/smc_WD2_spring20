@@ -40,7 +40,7 @@
 }
 
 
-.donations-container{
+.donations-box{
   display:flex;
   justify-content: center;
   align-items: center;
@@ -48,7 +48,10 @@
   flex-wrap:wrap;
 }
 
-.donations-image{
+
+
+
+.donations-image img{
   
 
     width: 14rem;
@@ -60,7 +63,7 @@
 }
 
 @media(min-width: 768px){
-  .donations-container{
+  .donations-box{
     justify-content: space-between;
     flex-direction: column;
   }
@@ -69,32 +72,52 @@
 
 @media(min-width: 970px){
 
+
   .donations-container{
-    /* flex-basis: 50%; */
-    flex-direction: row;
-    max-width: 80%;
-     justify-content: unset;
-    
-  
-  /* flex-direction: column;
-
+    width:60%;
+        margin: auto;
   }
+  
+  .donations-box{
+  display:flex;
+  flex-direction: row;
 
-  .donations-image{
-    
-     flex-wrap: nowrap; */
         
      
   }
   .donations-text{
-   flex-basis: 70%;
-    
+   /* flex-basis: 70%;
+     */
+       /* flex: 50%; */
+        width: 70%;
+       
   }
 
   .donations-image {
-    width: 10rem;
-    height: 10rem;
+   
+    flex:30%;
+       
    
   }
+
+  .donations-image img{
+     width: 10rem;
+    height: 10rem;
+  }
+
+
+  .donations-text-g p{
+     padding-left: 0px;
+    padding-right: 0px;
+}
+
+.donations-text-c p{
+     padding-left: 0px;
+    padding-right: 0px;
+}
+.donations-text-r p{
+ padding-left: 0px;
+ padding-right: 0px;
+
 
 }
