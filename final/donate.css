@@ -1,6 +1,7 @@
 
-
-
+* {
+  box-sizing: border-box;
+}
 
 .donate-hr{
   margin-top: 30px;
@@ -225,6 +226,37 @@ input[type=submit]:hover {
 
 /* START TABLET HERE! START TABLET HERE! */
 @media(min-width: 768px){
+
+
+.donate-container{
+    
+   padding-left: 100px;
+    padding-right: 100px;
+}
+
+.donate-container h3{
+     margin-left: 70px;
+    margin-right: 70px; 
+}
+
+.donations-p1{
+   /* margin-left:0;
+  margin-right:0;
+  text-align: left; */
+  
+}
+
+.donations-p2{
+  margin-left: 60px;
+  margin-right: 60px;
+
+  /* margin-left:0;
+  margin-right:0;
+  text-align: left; */
+}
+/* ------- */
+
+
   .donations-box{
     justify-content: space-between;
     flex-direction: column;
