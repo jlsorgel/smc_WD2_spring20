@@ -37,9 +37,14 @@ header{
       width: 100%;
     width: 80%;
     text-align: center;
-    /* display: block; */
+    
     margin-top: -30px;
     margin-left: 10%;
+
+
+
+
+    
 }
 
 .side-nav {
@@ -67,7 +72,7 @@ header{
   font-weight: 400;
   text-align: center;
   text-transform: uppercase;
-  margin-top:35px;
+  margin-top:20px;
   /* margin-bottom:10px; */
 }
 
@@ -160,16 +165,6 @@ a.donate-link{
 
 
 @media(min-width: 970px){
-.container {
-	width: 960px;
-	max-width: 100%;
-	padding: 20px;
-	margin: 0 auto;
-}
-
-
-
-
 
 
   /* The sidenav */
@@ -185,21 +180,59 @@ a.donate-link{
     padding-top: 20px;
   }
 
-  /* Page content */
-  #main {
-    margin-left: 200px; /* Same as the width of the sidenav */
+  .side-nav a {
+    margin-left: 0%;
+    margin-right: 0%;
+    font-size: 15px;
+}
+
+.side-nav a:hover {
+  color: white;
+  background-color: var(--darkgreen);
+     margin-left: 0%;
+    margin-right: 0%;
+}
+
+
+a.donate-link{
+  margin-left: 15%;
+margin-right: 15%;
+}
+
+
+
+ 
+
+  .side-nav .closebtn {
+  display:none;
   }
 
 
-  .side-nav .closebtn {
- display:none;
-}
 
+
+.logo {
+    
+     width: 80%; 
+    /* text-align: center; */
+    /* display: block; */
+    /* margin-top: -30px; */
+      /* margin-left: 10%;*/
+  margin-top: -12px;
+    margin-left: 10%;
+    }
 
 
 #openNav{
   display: none;
 }
 
+.nav-container {
+    display: none;
+}
+
+ /* Page content */
+  #main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+  }
 
 }
