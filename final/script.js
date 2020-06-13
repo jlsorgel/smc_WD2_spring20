@@ -59,7 +59,7 @@ $(document).ready(function () {
 
 
   $('#toggle1').click(function () {
-    $('.content1').slidetoggle('slow');
+    $('.content1').slideToggle('slow');
 
   });
 
