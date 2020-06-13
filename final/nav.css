@@ -34,12 +34,12 @@ header{
 
 
 .logo{
-  width:100%;
-      width: 70%;
+      width: 100%;
+    width: 80%;
     text-align: center;
-    display: block;
-    margin-top: -59px;
-    margin-left: 76px;
+    /* display: block; */
+    margin-top: -30px;
+    margin-left: 10%;
 }
 
 .side-nav {
@@ -77,8 +77,8 @@ header{
 
 a.donate-link{
   border: 2px solid var(--darkgreen);
-      margin-left: 150px;
-    margin-right: 150px;
+      margin-left: 25%;
+    margin-right: 25%;
     /* margin-top:20px; */
   
      border-radius: 4px;
@@ -91,8 +91,8 @@ a.donate-link{
 .side-nav a:hover {
   color: white;
   background-color: var(--darkgreen);
-    margin-left: 150px;
-    margin-right: 150px;
+     margin-left: 25%;
+    margin-right: 25%;
 }
 
 
@@ -114,9 +114,47 @@ a.donate-link{
 
 
 
+@media(min-width: 768px){
 
+.logo{
+    width: 70%;
+    text-align: center;
+   
+    margin-top: -30px;
+    margin-left: 15%;
+  }
 
+  .side-nav a{
+       margin-left: 35%;
+      margin-right: 35%;
+      font-size:30px;
+  }
 
+  a.donate-link{
+    margin-left: 35%;
+      margin-right: 35%;
+  }
+
+  .side-nav a:hover {
+    color: white;
+    background-color: var(--darkgreen);
+      margin-left: 35%;
+      margin-right: 35%;
+     
+  }
+
+  .side-nav .closebtn{
+     /* position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 60px;
+  margin-left: 50px;
+      margin-top: -5px; */
+      right: -230px;
+
+  }
+
+}/* END IPAD! */
 
 
 
