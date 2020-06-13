@@ -34,6 +34,12 @@ body{
 } 
 
 
+.hero-desktop{
+    display:none;
+  }
+
+
+
 
 p {
  
@@ -118,6 +124,22 @@ button{
 
 
 @media(min-width: 768px){
+
+  /*home */
+
+  .hero-image{
+    display:none;}
+
+  .hero-desktop {
+    display: inline-block;
+    
+  }
+  .hero-desktop img{
+    width:100%;
+  }
+
+
+
   #grid-container {
    display: grid;
     grid-gap: 10px;
