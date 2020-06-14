@@ -326,10 +326,8 @@ fieldset{
 /* 2 floated columns*/
 
 #row{
-  max-width:1250px;
+  max-width:1200px;
   margin:auto;
-  padding-left: 100px;
-  padding-right:150px;
 }
 .column {
   float: left;
@@ -338,14 +336,14 @@ fieldset{
 }
 
 .section-one {
-  width: 45%;
+  width: 40%;
 }
 
 .section-two{
   width: 40%;
   padding-left: 0px;
     padding-right: 0px;
-    /* margin-left:40px; */
+    margin-left:40px;
 }
 
 
@@ -371,7 +369,6 @@ fieldset{
     
     width: 100%;
     margin: auto;
-    margin-top:-30px;
   }
   
   .donations-box{
@@ -409,7 +406,7 @@ fieldset{
 
   .donations-text-g p{
      padding-left: 0px;
-    padding-right: 80px;
+    padding-right: 0px;
     text-align: left;
     margin-left: 0px;
     margin-right:0px;
@@ -418,10 +415,11 @@ fieldset{
 
 .donations-text-c p{
      padding-left: 0px;
-   
+    padding-right: 0px;
     text-align: left;
     margin-left: 0px;
     margin-right:0px;
+
 }
 .donations-text-r p{
  padding-left: 0px;
@@ -429,11 +427,13 @@ fieldset{
 text-align: left;
 margin-left: 0px;
 margin-right:0px;
+
+
+
 }
 
-fieldset{
-  margin-bottom: 20px;
-  
 }
 
-}/* End Desktop */
+
+
+/* End Desktop */
