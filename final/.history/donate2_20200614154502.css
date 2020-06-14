@@ -1,27 +1,7 @@
-/* * {
+* {
   box-sizing: border-box;
-} */
-
-.header-section {
-    
-  height: 0;
-  padding-bottom: 100%;
-  margin: 0 0 2;
-  background-image:url('../final/images/elephants2.jpg') ;
-  background-position: center center;
-  background-size: cover;}
-  
- 
-p.headline-donate{
-  font-size: 1.2rem;
-  line-height: 1.4;
-   text-align: center;
-   font-weight:500;
-  font-family: 'Playfair Display', serif;
-  color: #444130;
-  margin-left: 5px;
-    margin-right: 5px;
 }
+
 .donate-hr{
   margin-top: 30px;
   padding-top: 0px;
@@ -246,11 +226,7 @@ input[type=submit]:hover {
 /* START TABLET HERE! START TABLET HERE! */
 @media(min-width: 768px){
 
-p.headline-donate{
-  
-  margin-left: 20px;
-  margin-right: 20px;
-}
+
 .donate-container{
     
    padding-left: 100px;
@@ -304,47 +280,24 @@ fieldset{
 @media(min-width: 970px){
 
 
-  .header-section {
-  padding-bottom: 50%;
-  }
-
- 
-  p.headline-donate{
-    font-size: 1.1rem;
-    text-align: left;
-  }
-
-  p.headline-donate{
-  max-width: 965px;
-  margin: auto;
-  padding-top: 10px;
-  font-size: 1.1rem;}
-
-  
-
-
 /* Create two unequal columns that floats next to each other */
 
 #row{
-  max-width:980px;
-  margin:auto;
+  max-width: 980px;
 }
 .column {
   float: left;
-  /* padding: 70px; */
+  padding: 10px;
   
 }
 
 .section-one {
-  width: 50%;
+  width: 60%;
 }
 
 .section-two{
   width: 40%;
-  padding-left: 0px;
-    padding-right: 0px;
 }
-
 
 /* Clear floats after the columns */
 #row:after {
@@ -360,8 +313,7 @@ fieldset{
 
 
   .donations-container{
-    
-    width: 100%;
+    width:60%;
         margin: auto;
   }
   
@@ -373,16 +325,16 @@ fieldset{
      
   }
   .donations-text{
-  flex-basis: 70%;
-  flex: 50%;
-      padding-left: 40px;
- 
+   /* flex-basis: 70%;
+     */
+       /* flex: 50%; */
+        /* width: 70%; */
        
   }
 
   .donations-image {
    
-    /* flex:30%; */
+    flex:30%;
        
    
   }
@@ -392,41 +344,25 @@ fieldset{
     height: 10rem;
   }
 
-  .donations-text h2{
-    text-align: left;
-  }
-
 
   .donations-text-g p{
      padding-left: 0px;
     padding-right: 0px;
-    text-align: left;
-    margin-left: 0px;
-    margin-right:0px;
-
 }
 
 .donations-text-c p{
      padding-left: 0px;
     padding-right: 0px;
-    text-align: left;
-    margin-left: 0px;
-    margin-right:0px;
-
 }
 .donations-text-r p{
  padding-left: 0px;
  padding-right: 0px;
-text-align: left;
-margin-left: 0px;
-margin-right:0px;
-
 
 
 }
 
-}
 
 
 
-/* End Desktop */
+
+}/* End Desktop */

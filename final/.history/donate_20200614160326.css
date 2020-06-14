@@ -326,7 +326,7 @@ fieldset{
 /* Create two unequal columns that floats next to each other */
 
 #row{
-  max-width:980px;
+  max-width:1000px;
   margin:auto;
 }
 .column {
@@ -344,7 +344,7 @@ fieldset{
   padding-left: 0px;
     padding-right: 0px;
 }
-
+}
 
 /* Clear floats after the columns */
 #row:after {
@@ -425,7 +425,7 @@ margin-right:0px;
 
 }
 
-}
+
 
 
 

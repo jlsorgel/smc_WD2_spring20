@@ -344,7 +344,7 @@ fieldset{
   padding-left: 0px;
     padding-right: 0px;
 }
-
+}
 
 /* Clear floats after the columns */
 #row:after {
@@ -386,11 +386,11 @@ fieldset{
        
    
   }
-
+/* 
   .donations-image img{
      width: 10rem;
     height: 10rem;
-  }
+  } */
 
   .donations-text h2{
     text-align: left;
@@ -425,7 +425,7 @@ margin-right:0px;
 
 }
 
-}
+
 
 
 

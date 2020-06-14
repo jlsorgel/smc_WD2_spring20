@@ -2,7 +2,7 @@
   box-sizing: border-box;
 } */
 
-.header-section {
+/* .header-section {
     
   height: 0;
   padding-bottom: 100%;
@@ -21,7 +21,7 @@ p.headline-donate{
   color: #444130;
   margin-left: 5px;
     margin-right: 5px;
-}
+} */
 .donate-hr{
   margin-top: 30px;
   padding-top: 0px;
@@ -326,7 +326,7 @@ fieldset{
 /* Create two unequal columns that floats next to each other */
 
 #row{
-  max-width:980px;
+  max-width:1000px;
   margin:auto;
 }
 .column {
@@ -344,7 +344,7 @@ fieldset{
   padding-left: 0px;
     padding-right: 0px;
 }
-
+}
 
 /* Clear floats after the columns */
 #row:after {
@@ -425,7 +425,7 @@ margin-right:0px;
 
 }
 
-}
+
 
 
 

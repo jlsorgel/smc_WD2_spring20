@@ -1,10 +1,9 @@
 
 @import url(nav.css);
 
-@import url(donate.css);
+/* @import url(donate.css); */
 
-/* @import url(donate2.css); */
-
+@import url(donate2.css);
 
 
 :root {
