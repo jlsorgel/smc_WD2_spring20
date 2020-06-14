@@ -323,10 +323,10 @@ fieldset{
   
 
 
-/* 2 floated columns*/
+/* Create two unequal columns that floats next to each other */
 
 #row{
-  max-width:1200px;
+  max-width:1000px;
   margin:auto;
 }
 .column {
@@ -336,18 +336,17 @@ fieldset{
 }
 
 .section-one {
-  width: 40%;
+  width: 50%;
 }
 
 .section-two{
   width: 40%;
   padding-left: 0px;
     padding-right: 0px;
-    margin-left:40px;
 }
 
 
-/* Clear floats  */
+/* Clear floats after the columns */
 #row:after {
   content: "";
   display: table;
@@ -359,16 +358,11 @@ fieldset{
 
   /* ---------- */
 
- .donate-container{
-    padding-left: 0px; 
-    padding-right: 0px;
-  }
-
 
   .donations-container{
     
     width: 100%;
-    margin: auto;
+        margin: auto;
   }
   
   .donations-box{

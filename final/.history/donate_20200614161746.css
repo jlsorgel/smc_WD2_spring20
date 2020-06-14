@@ -336,14 +336,13 @@ fieldset{
 }
 
 .section-one {
-  width: 40%;
+  width: 50%;
 }
 
 .section-two{
   width: 40%;
   padding-left: 0px;
     padding-right: 0px;
-    margin-left:40px;
 }
 
 

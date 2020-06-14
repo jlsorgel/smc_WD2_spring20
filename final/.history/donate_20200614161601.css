@@ -326,7 +326,7 @@ fieldset{
 /* 2 floated columns*/
 
 #row{
-  max-width:1200px;
+  max-width:1000px;
   margin:auto;
 }
 .column {
@@ -336,14 +336,13 @@ fieldset{
 }
 
 .section-one {
-  width: 40%;
+  width: 50%;
 }
 
 .section-two{
   width: 40%;
   padding-left: 0px;
     padding-right: 0px;
-    margin-left:40px;
 }
 
 
@@ -359,7 +358,7 @@ fieldset{
 
   /* ---------- */
 
- .donate-container{
+  .donate-conatiner{
     padding-left: 0px; 
     padding-right: 0px;
   }
