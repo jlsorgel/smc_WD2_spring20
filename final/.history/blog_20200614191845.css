@@ -1,0 +1,15 @@
+.blog-container{
+  margin-left:15px;
+  margin-right:15px;
+  margin-top:15px;
+}
+
+.blog-container{
+  text-align: left;
+}
+
+.blog-container h1{
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+}

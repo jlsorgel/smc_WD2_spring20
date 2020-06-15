@@ -57,9 +57,9 @@ $(document).ready(function () {
 
   //Toggle 
 
-  $('.toggle-content').hide();
+
   $('#toggle1').click(function () {
-    $('.toggle-content').slideToggle('slow');
+    $('.blog-content').slideToggle('slow');
 
   });
 
@@ -74,6 +74,9 @@ $(document).ready(function () {
   $('form').submit(function (event) {
     event.preventDefault();
   });
+
+
+
 
 
 
