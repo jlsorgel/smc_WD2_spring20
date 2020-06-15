@@ -32,6 +32,14 @@
 }
   
 
+/* 
+.toggle-image{
+ height: 0;
+  padding-bottom: 100%;
+  background-position: center center;
+  background-size: cover;
+  
+} */
 
 
 
@@ -44,6 +52,9 @@
   padding-right: 17px;
 }
 
+/* .blog-container.p{
+  text-align:left;
+} */
 
 .blog-container hr {
   margin-top: 15px;

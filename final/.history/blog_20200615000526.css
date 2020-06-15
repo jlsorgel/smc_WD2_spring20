@@ -1,0 +1,53 @@
+.blog-container{
+  margin-left:15px;
+  margin-right:15px;
+  margin-top:15px;
+}
+
+.blog-container{
+  text-align: left;
+}
+
+.blog-container h1{
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  color:var(--headercolor);
+  text-align: left;
+  /* padding-right: 40px; */
+  padding-right: 17px;
+}
+
+/* .blog-container.p{
+  text-align:left;
+} */
+
+.blog-container hr {
+  margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.btn{
+ 
+  /* background-color: var(--darkgreen);
+  color: white;
+ */
+  background-color: white;
+    color: var(--darkgreen);
+    padding: 5px 10px;
+    margin: 8px 0;
+    border: 1px solid var(--darkgreen);
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+/* START DESKTOP!!START DESKTOP!!START DESKTOP!! */
+@media(min-width: 970px){
+  .blog-container {
+  display: grid;
+}
+
+
+
+}/* ENd Desktop! */

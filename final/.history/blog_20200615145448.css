@@ -32,6 +32,14 @@
 }
   
 
+/* 
+.toggle-image{
+ height: 0;
+  padding-bottom: 100%;
+  background-position: center center;
+  background-size: cover;
+  
+} */
 
 
 
@@ -44,6 +52,9 @@
   padding-right: 17px;
 }
 
+/* .blog-container.p{
+  text-align:left;
+} */
 
 .blog-container hr {
   margin-top: 15px;
@@ -96,7 +107,7 @@
   width: 40%;
   padding-left: 10%;
   /* margin-bottom:15px; */
-  margin-bottom: 260px
+  margin-bottom:100px;
   
   
 }
@@ -144,16 +155,6 @@
   clear: both;
 }
 
-
-.tblog-image{
-  float:left;
-  width: 40%;
-  padding-left: 10%;
-  margin-bottom:15px; 
- 
-  
-  
-}
 
 
 
