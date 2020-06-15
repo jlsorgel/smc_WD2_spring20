@@ -79,11 +79,11 @@ $(document).ready(function () {
 
 
 
-  $('#donatemessage').hide();
-  $('#submitbtn').on('click', function (e) {
+  $('#dialog').hide();
+  $('#submitted').on('click', function (e) {
     e.preventDefault();
-    $('.donate-form').hide();
-    $('#donatemessage').show().dialog();
+    $('.donatenow').hide();
+    $('#dialog').show().dialog();
   });
 
 

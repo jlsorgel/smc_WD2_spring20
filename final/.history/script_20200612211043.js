@@ -65,29 +65,6 @@ $(document).ready(function () {
 
 
 
-  // donate SCRIPT!!!!
-
-
-  $('form').submit(function (event) {
-    event.preventDefault();
-  });
-
-
-
-
-
-
-
-
-  $('#donatemessage').hide();
-  $('#submitbtn').on('click', function (e) {
-    e.preventDefault();
-    $('.donate-form').hide();
-    $('#donatemessage').show().dialog();
-  });
-
-
-
 
 
 
