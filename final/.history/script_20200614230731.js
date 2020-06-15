@@ -2,6 +2,15 @@
 
 
 
+// $("#openNav").click(function () {
+
+//   $("#side_nav").css({ "background-color": "blue" });
+
+// });
+
+
+
+
 document.getElementById("openNav").onclick = function () { openNav() };
 
 
@@ -16,12 +25,6 @@ function closeNav() {
 
 $(document).ready(function () {
 
-  // $(".btn").click(function () {
-  //   $(this).effect("highlight", {
-  //     color: "#28602f"
-  //   }, 3000);
-  // });
-
 
   // ABOUT SCRIPT !!!!
 
@@ -35,7 +38,11 @@ $(document).ready(function () {
 
 
 
-
+  // $('.grid-tem').hover(function () {
+  //   $('.hoverdiv h2').mouseover('slow');
+  // }, function () {
+  //   $('.hoverdiv h2').mouseout('slow');
+  // });
 
   $(".grid-item1").mouseenter(function () {
     $(".hoverdiv").show();
@@ -56,7 +63,7 @@ $(document).ready(function () {
   $('#toggle1').click(function () {
     $('.toggle-content').slideToggle('slow');
     if ($(this).text() == "Collapse") {
-      $(this).text("View More").css({ "background-color": "white", "color": "#28602f", "border": "1px solid #28602f", });
+      $(this).text("View More").css({ "background-color": "white", "color": "#28602f", "border": "2px solid #28602f", });
     } else {
       $(this).text("Collapse").css({ "background-color": "#28602f", "color": "white" });
     }
@@ -72,11 +79,6 @@ $(document).ready(function () {
   $('.toggle-content2').hide();
   $('#toggle2').click(function () {
     $('.toggle-content2').slideToggle('slow');
-    if ($(this).text() == "Collapse") {
-      $(this).text("View More").css({ "background-color": "white", "color": "#28602f", "border": "1px solid #28602f", });
-    } else {
-      $(this).text("Collapse").css({ "background-color": "#28602f", "color": "white" });
-    }
 
   });
 
@@ -84,11 +86,6 @@ $(document).ready(function () {
   $('.toggle-content3').hide();
   $('#toggle3').click(function () {
     $('.toggle-content3').slideToggle('slow');
-    if ($(this).text() == "Collapse") {
-      $(this).text("View More").css({ "background-color": "white", "color": "#28602f", "border": "1px solid #28602f", });
-    } else {
-      $(this).text("Collapse").css({ "background-color": "#28602f", "color": "white" });
-    }
 
   });
 
@@ -114,6 +111,7 @@ $(document).ready(function () {
     $('.donate-form').hide();
     $('#donatemessage').show().dialog();
   });
+
 
 
 

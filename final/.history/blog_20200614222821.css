@@ -28,11 +28,11 @@
 
 .btn{
  
-  /* background-color: var(--darkgreen);
+   background-color: var(--darkgreen);
   color: white;
- */
+ /*
   background-color: white;
-    color: var(--darkgreen);
+    color: var(--darkgreen);*/
     padding: 5px 10px;
     margin: 8px 0;
     border: 1px solid var(--darkgreen);

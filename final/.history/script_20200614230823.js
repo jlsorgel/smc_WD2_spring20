@@ -2,6 +2,15 @@
 
 
 
+// $("#openNav").click(function () {
+
+//   $("#side_nav").css({ "background-color": "blue" });
+
+// });
+
+
+
+
 document.getElementById("openNav").onclick = function () { openNav() };
 
 
@@ -16,12 +25,6 @@ function closeNav() {
 
 $(document).ready(function () {
 
-  // $(".btn").click(function () {
-  //   $(this).effect("highlight", {
-  //     color: "#28602f"
-  //   }, 3000);
-  // });
-
 
   // ABOUT SCRIPT !!!!
 
@@ -35,7 +38,11 @@ $(document).ready(function () {
 
 
 
-
+  // $('.grid-tem').hover(function () {
+  //   $('.hoverdiv h2').mouseover('slow');
+  // }, function () {
+  //   $('.hoverdiv h2').mouseout('slow');
+  // });
 
   $(".grid-item1").mouseenter(function () {
     $(".hoverdiv").show();
@@ -114,6 +121,7 @@ $(document).ready(function () {
     $('.donate-form').hide();
     $('#donatemessage').show().dialog();
   });
+
 
 
 

@@ -16,12 +16,6 @@ function closeNav() {
 
 $(document).ready(function () {
 
-  // $(".btn").click(function () {
-  //   $(this).effect("highlight", {
-  //     color: "#28602f"
-  //   }, 3000);
-  // });
-
 
   // ABOUT SCRIPT !!!!
 
@@ -118,7 +112,11 @@ $(document).ready(function () {
 
 
 
+  $(".btn").click(function () {
+    $(this).effect("highlight", {
+      color: "#28602f }, 3000);
+    });
 
 
 
-});
+  });
