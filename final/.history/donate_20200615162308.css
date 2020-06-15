@@ -259,7 +259,9 @@ input[type=submit]:hover {
 
 /* START TABLET HERE! START TABLET HERE! */
 @media(min-width: 768px){
-
+#main{
+    max-width:750px;
+  }
 p.headline-donate{
   
   margin-left: 20px;
@@ -325,15 +327,14 @@ fieldset{
 
 
  /* End Tablet */
- @media(min-width: 970px){
-
-  
- }
 
 
 /* START Desktop HERE!  START Desktop HERE! */
-@media(min-width: 1400px){
-
+@media(min-width: 970px){
+  
+#main{
+    max-width:1200px;
+  }
 
   .header-section {
   padding-bottom: 50%;
@@ -486,8 +487,9 @@ fieldset{
 }
 
 #replacecontent{
- margin:10px 150px 10px 150px;
- 
+ /* margin:10px 150px 10px 150px; */
+ max-width:600px;
+ margin:auto;
 }
 
 

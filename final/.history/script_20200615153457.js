@@ -104,19 +104,11 @@ $(document).ready(function () {
 
 
 
-  // $('#donatemessage').hide();
-  // $('#submitbtn').on('click', function (e) {
-  //   e.preventDefault();
-  //   $('#row').hide();
-  //   $('#donatemessage').show().dialog();
-  // });
-
-
-  $('#replacecontent').hide();
+  $('#donatemessage').hide();
   $('#submitbtn').on('click', function (e) {
     e.preventDefault();
     $('#row').hide();
-    $('#replacecontent').show();
+    $('#donatemessage').show().dialog();
   });
 
 

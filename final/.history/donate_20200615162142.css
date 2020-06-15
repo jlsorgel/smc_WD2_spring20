@@ -325,14 +325,13 @@ fieldset{
 
 
  /* End Tablet */
- @media(min-width: 970px){
-
-  
- }
 
 
 /* START Desktop HERE!  START Desktop HERE! */
-@media(min-width: 1400px){
+@media(min-width: 970px){
+  #main{
+    max-width:750px;
+  }
 
 
   .header-section {
@@ -486,8 +485,9 @@ fieldset{
 }
 
 #replacecontent{
- margin:10px 150px 10px 150px;
- 
+ /* margin:10px 150px 10px 150px; */
+ max-width:600px;
+ margin:auto;
 }
 
 

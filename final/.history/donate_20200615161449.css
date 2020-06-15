@@ -324,15 +324,11 @@ fieldset{
   
 
 
- /* End Tablet */
- @media(min-width: 970px){
-
-  
- }
+} /* End Tablet */
 
 
 /* START Desktop HERE!  START Desktop HERE! */
-@media(min-width: 1400px){
+@media(min-width: 970px){
 
 
   .header-section {

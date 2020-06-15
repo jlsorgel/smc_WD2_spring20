@@ -243,16 +243,10 @@ input[type=submit]:hover {
 
 /* replace form */
 #replacecontent{
-  margin-left: 30px;
-    margin-right: 30px;
-    text-align: left;
+  text-align: center;
+
 }
 
-
-#replacecontent p.p-headline{
-  text-align:left;
-}
- 
 
 
 
@@ -305,34 +299,17 @@ fieldset{
   
 }
 
-/* replace form */
-#replacecontent{
-  margin-left: 0px;
-    margin-right: 0px;
-    text-align: center;
-}
-
-
-#replacecontent p.p-headline{
-  text-align:center;
-}
-  
-}
 
 
 
   
 
 
- /* End Tablet */
- @media(min-width: 970px){
-
-  
- }
+} /* End Tablet */
 
 
 /* START Desktop HERE!  START Desktop HERE! */
-@media(min-width: 1400px){
+@media(min-width: 970px){
 
 
   .header-section {
@@ -492,7 +469,7 @@ fieldset{
 
 
 #replacecontent p-headline{
- 
+  text-align: left;
   padding: 0px, 100px, 0px 100px;
 }
 
