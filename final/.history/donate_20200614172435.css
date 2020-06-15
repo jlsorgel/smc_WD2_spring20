@@ -364,8 +364,7 @@ fieldset{
  .donate-container{
     padding-left: 0px; 
     padding-right: 0px;
-    text-align: left;
-    margin-top: 80px;
+        text-align: left;
 }
   
 
@@ -409,8 +408,12 @@ fieldset{
     margin-left: 30px;
     margin-right: 70px;
   }
+  
+  .donations-text h2{
+    text-align: left;
+  }
 
- 
+
   .donations-text-g p{
      padding-left: 0px;
     padding-right: 80px;
@@ -434,20 +437,6 @@ fieldset{
   margin-left: 0px;
   margin-right:0px;
   }
-
- .donations-text h2{
-    text-align: left;
-  }
-  .donations-p1 {
-    margin-left: 30px;
-  }
-
-  .donations-p2 {
-    margin-left: 30px;
-    margin-right: 30px
-    ;}
-
-
 
 fieldset{
   margin-bottom: 20px;
