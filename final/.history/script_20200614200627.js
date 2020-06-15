@@ -63,9 +63,9 @@ $(document).ready(function () {
 
   });
 
-  $('.toggle-content2').hide();
-  $('#toggle2').click(function () {
-    $('.toggle-content2').slideToggle('slow');
+  $('.toggle-content').hide();
+  $('#toggle1').click(function () {
+    $('.toggle-content').slideToggle('slow');
 
   });
 
