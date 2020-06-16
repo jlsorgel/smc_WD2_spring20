@@ -104,13 +104,13 @@ p.headline-donate{
   margin-bottom:0px;
 }
 
-/* .donations-box{
+.donations-box{
   display:flex;
   justify-content: center;
   align-items: center;
   align-content:center;
   flex-wrap:wrap;
-} */
+}
 
 
 
@@ -258,7 +258,7 @@ input[type=submit]:hover {
 
 
 /* START TABLET HERE! START TABLET HERE! */
-@media(min-width: 545px){
+@media(min-width: 768px){
 
 p.headline-donate{
   
@@ -325,8 +325,7 @@ fieldset{
 
 
  /* End Tablet */
-
- @media(min-width: 1000px){
+ @media(min-width: 970px){
 
   
   .header-section {
@@ -350,31 +349,20 @@ fieldset{
 
 /* 2 floated columns*/
 
-.donations-box{
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  align-content:center;
-  
-} 
-
-
-
 #row{
-   margin-left:100px;
-   
+  /* max-width:1250px; */
+  margin:auto;
   /* padding-left: 100px;
   padding-right:150px; */
 }
 .column {
   float: left;
-    /* padding: 70px;
-   */
+  padding: 70px;
+  
 }
 
 .section-one {
   width: 45%;
-  margin-right:50px;
 }
 
 .section-two{
@@ -447,12 +435,9 @@ fieldset{
   }
 
  
-
- 
   .donations-text-g p{
      padding-left: 0px;
-     padding-right:0px;
-    /* padding-right: 80px; */
+    padding-right: 80px;
     text-align: left;
     margin-left: 0px;
     margin-right:0px;
@@ -465,11 +450,7 @@ fieldset{
       text-align: left;
       margin-left: 0px;
       margin-right:0px;
-      padding-left: 0px;
-  padding-right: 0px;
   }
-
-
   .donations-text-r p{
   padding-left: 0px;
   padding-right: 0px;
@@ -482,21 +463,13 @@ fieldset{
     text-align: left;
   }
   .donations-p1 {
-    /* margin-left: 30px; */
+    margin-left: 30px;
   }
 
   .donations-p2 {
-    /* margin-left: 30px;
-    margin-right: 30px */
-  margin-left: 30px;
-  margin-right: 30px;
-
-  /* margin-left:0;
-  margin-right:0;
-  text-align: left; */
-}
-
-    text-align:left;}
+    margin-left: 30px;
+    margin-right: 30px
+    ;}
 
 
 

@@ -325,8 +325,7 @@ fieldset{
 
 
  /* End Tablet */
-
- @media(min-width: 1000px){
+ @media(min-width: 970px){
 
   
   .header-section {
@@ -488,15 +487,7 @@ fieldset{
   .donations-p2 {
     /* margin-left: 30px;
     margin-right: 30px */
-  margin-left: 30px;
-  margin-right: 30px;
-
-  /* margin-left:0;
-  margin-right:0;
-  text-align: left; */
-}
-
-    text-align:left;}
+    ;}
 
 
 
