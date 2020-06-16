@@ -139,5 +139,11 @@ footer h1{
 
 
 @media(min-width: 970px){
- 
+  #grid-container {
+   display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-left:25px;
+   padding-right:25px;
+}
+
 }

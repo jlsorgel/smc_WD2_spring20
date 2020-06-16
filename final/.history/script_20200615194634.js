@@ -37,11 +37,11 @@ $(document).ready(function () {
 
 
 
-  // $(".grid-item1").mouseenter(function () {
-  //   $(".hoverdiv").show();
-  // });
+  $(".grid-item1").mouseenter(function () {
+    $(".hoverdiv").fadein(slow);
+  });
   // $(".grid-item1").mouseleave(function () {
-  //   $(".hoverdiv").hide();
+  //   $(".hoverdiv").fadeto();
   // });
 
 

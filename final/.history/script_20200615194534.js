@@ -37,12 +37,12 @@ $(document).ready(function () {
 
 
 
-  // $(".grid-item1").mouseenter(function () {
-  //   $(".hoverdiv").show();
-  // });
-  // $(".grid-item1").mouseleave(function () {
-  //   $(".hoverdiv").hide();
-  // });
+  $(".grid-item1").mouseenter(function () {
+    $(".hoverdiv").fadeto();
+  });
+  $(".grid-item1").mouseleave(function () {
+    $(".hoverdiv").fadeto();
+  });
 
 
   // BLOG SCRIPT BLOG SCRIPT BLOG SCRIPT!!!!
