@@ -314,7 +314,7 @@ fieldset{
   margin-right: 0px; */
   padding-left:0px;
   padding-right:0px;
- 
+  margin-left:200px;
     text-align: center;
 }
 
@@ -514,7 +514,6 @@ fieldset{
 #replacecontent{
  
  text-align:left;
-  margin-left:200px;
  
 }
 
@@ -527,7 +526,7 @@ fieldset{
 
 
 #replacecontent img{
-  width:80%;
+  width:60%;
    
 }
  }
