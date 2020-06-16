@@ -34,8 +34,7 @@
   height: 100%;
   width: 100%;
   opacity: 0;
-  background-color:#f7f7f5 ;
-   /* rgb(231, 231, 231); */
+  background-color: rgb(231, 231, 231);
         transition: opacity 2.5s cubic-bezier(0, 0.7, 0.7, 1);
     text-align:left;
     
