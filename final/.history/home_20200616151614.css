@@ -1,0 +1,110 @@
+
+.home-header{
+    
+  height: 0;
+  padding-bottom: 100%;
+  margin: 0 0 2;
+  background-image:url('../final/images/main.jpg') ;
+  background-position: center center;
+  background-size: cover;}
+  
+  .home-div{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .home-div hr{
+    width: 80%;
+    border:1px solid var(--lightgreen);
+    margin-bottom: 30px;
+
+  }
+
+  .centered-box{
+    text-align:center;
+    /* background-color: var(--lightgreen); */
+    padding: 0px 0px 10px 0px;
+}
+  .headline-home{
+    margin-bottom: 20px;
+  }
+
+
+  h1.centered-h1{
+     text-align: center;
+    padding:10px;
+}
+
+p.headline-home{
+    font-size: 1.0rem;
+    line-height: 1.4;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+    color: var(--headercolor);
+    text-align: center;
+        
+  }
+
+ 
+  p.highlight-home{
+    font-size: 1.1rem;
+    line-height: 1.4;
+    font-weight: 500;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    color: var(--uglygreen);
+    
+        
+  }
+
+
+  .margin{
+    margin-bottom:30px;
+    text-align: center;
+  }
+
+  button{
+  width: 80%;
+  border: 1px solid var(--darkgreen);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  font-family: 'play-fair display';
+  font-size: 20px;
+  font-weight: 600;
+ /* transition-duration: 0.4s; */
+ background-color:white;
+
+  } 
+  
+  button a{
+  font-family: 'play-fair display';
+   font-size: 20px;
+   font-weight: 600;
+   color:var(--darkgreen);
+   text-decoration: none;
+    }
+
+  button:hover {
+  background-color: var(--darkgreen);
+  color:white;
+
+  }
+   button:active {
+  background-color: var(--darkgreen);
+  color:white;
+
+  }
+
+  button a:hover :active{
+      color: white;
+  }
+
+   button a:hover {
+      color: white;
+  }
+
+
+ 

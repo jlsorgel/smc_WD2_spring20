@@ -7,15 +7,13 @@
 
 @import url(about.css);
 
-@import url(home.css);
-
 
 
 
 :root {
-  --lightgreen: rgba(102, 119, 34, 0.29);
+  --lightgreen: rgba(102, 119, 34, 0.39);
   --uglygreen:rgb(117, 109, 72);
-  --headercolor:rgba(68, 65, 48, 0.88);  
+  --headercolor:#444130;  
   --darkgreen:#28602f;
 }
   
@@ -59,10 +57,6 @@ p {
    
 }
 
-b{
-  color:var(--headercolor);
-}
-
 .home-p p{
     margin-left: 20px;
     margin-right: 20px;
@@ -76,7 +70,7 @@ p.p-headline{
   
    font-weight:500;
     font-family: 'Playfair Display', serif;
-     color:var(--headercolor);
+        color: #444130;
 }
 
  h1{
@@ -86,8 +80,6 @@ p.p-headline{
   color:var(--headercolor);
 
 } 
-
-
 
 
 

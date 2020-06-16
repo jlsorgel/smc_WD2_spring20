@@ -1,0 +1,18 @@
+
+.home-header{
+    
+  height: 0;
+  padding-bottom: 100%;
+  margin: 0 0 2;
+  background-image:url('../final/images/main.jpg') ;
+  background-position: center center;
+  background-size: cover;}
+  
+
+
+  p .headine-home{
+
+    font-weight: 600;
+    color: var(--uglygreen);
+  }
+
