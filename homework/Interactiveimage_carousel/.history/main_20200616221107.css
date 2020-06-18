@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+    
+}
+
+header {
+    min-height: 100px;
+}
+
+label{
+    color: midnightblue;
+    margin:15px;
+}
+ 
+select {
+        width: 25%;
+        padding: 5px 20px;
+        border:double rgb(40, 152, 218);
+        border-radius: 10px;
+        background-color:white; 
+}
+
+img{
+  width:100%;
+}
+.imgGallery{
+    display: flex;
+    width: 50%;
+    height: auto;
+    
+}
+

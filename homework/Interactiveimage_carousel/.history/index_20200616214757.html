@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+  <header>
+
+    <hr>
+    <form method="GET" action="">
+      <label for="groupSelect">Category</label>
+      <select id="groupSelect">
+        <option value="Cities">Day</option>
+        <option value="Nature">Night</option>
+      </select>
+
+      <label for="catSelect">See Images for</label>
+      <select id="catSelect"></select>
+    </form>
+    <hr>
+  </header>
+
+
+  <main id="gallery">
+    <div class="imgGallery">
+      <img src="images/daycity1.jpg" alt="tokyo skyline" id="galleryImg">
+      <img src="images/daycity2.jpg" alt="new york skyline" id="galleryImg2">
+    </div>
+    <div class="imgGallery">
+      <img src="images/nightsky1.jpg alt=" Red Rock National Park" id="galleryImg3">
+      <img src="images/nightsky2.jpg" alt="Phi Phi Island Thailand" id="galleryImg4">
+    </div>
+  </main>
+
+  <script>
+    var groupSelect = document.getElementById("groupSelect");
+    var catSelect = document.getElementById("catSelect");
+
+    var galleryImg = document.getElementById("galleryImg");
+    var catCities = ["Tokyo", "New York"];
+    var catNature = ["Beaches", "Deserts"];
+
+    var imageCounter = 1;
+
+    groupSelect.addEventListener("change", function () {
+      console.log(groupSelect.value);
+      if (groupSelect.value == "Cities") {
+        fillCategory(catCities);
+      }
+
+      else if (groupSelect.value == "Nature") {
+        fillCategory(catNature);
+      }
+      else {
+        // all other cases
+        catSelect.innerHTML = "";
+      }
+
+
+    })
+
+    var fillCategory = function (catArray) {
+      catSelect.innerHTML = "";
+      catArray.forEach(function (member) {
+        var opt = document.createElement("option");
+        opt.value = member;
+        opt.textContent = member;
+        catSelect.appendChild(opt);
+      })
+    }
+
+
+
+
+    var timerFunction = function () {
+      // var newElem = document.createElement("p");
+      // newElem.textContent = "Another paragraph";
+      // document.getElementById("gallery").appendChild(newElem);
+
+      if (imageCounter == 1) {
+        galleryImg.src = "images / daycity1.jpg"
+        imageCounter = 2;
+      }
+      else if (imageCounter == 2) {
+        galleryImg.src = "images / daycity2.jpg";
+        imageCounter = 3;
+      }
+      else if (imageCounter == 3) {
+        galleryImg.src = "images / daycity3.jpg";
+        imageCounter = 1;
+      }
+
+    // }
+    // window.setInterval(timerFunction, 3000);
+
+    // var timerFunction = function () {
+
+
+    //   if (imageCounter == 1) {
+    //     galleryImg2.src = "images / nightcity1.jpg";
+    //     imageCounter = 2;
+    //   }
+    //   else if (imageCounter == 2) {
+    //     galleryImg2.src = "images/nightcity2.jpg";
+    //     imageCounter = 3;
+    //   }
+    //   else if (imageCounter == 3) {
+    //     galleryImg2.src = "images/nightcity3.jpg";
+    //     imageCounter = 1;
+    //   }
+
+    // }
+    // window.setInterval(timerFunction, 3000)
+
+    // var timerFunction = function () {
+
+
+    //   if (imageCounter == 1) {
+    //     galleryImg3.src = "images/daysky1.jpg";
+    //     imageCounter = 2;
+    //   }
+    //   else if (imageCounter == 2) {
+    //     galleryImg3.src = "images/daysky2.jpg";
+    //     imageCounter = 3;
+    //   }
+    //   else if (imageCounter == 3) {
+    //     galleryImg3.src = "images/daysky3.jpg";
+    //     imageCounter = 1;
+    //   }
+
+    // }
+    // window.setInterval(timerFunction, 3000)
+
+    // var timerFunction = function () {
+
+
+    //   if (imageCounter == 1) {
+    //     galleryImg4.src = "images/nightsky1.jpg";
+    //     imageCounter = 2;
+    //   }
+    //   else if (imageCounter == 2) {
+    //     galleryImg4.src = "images/nightsky2.jpg";
+    //     imageCounter = 3;
+    //   }
+    //   else if (imageCounter == 3) {
+    //     galleryImg4.src = "images/nightwater2.jpg";
+    //     imageCounter = 1;
+    //   }
+
+    // }
+    // window.setInterval(timerFunction, 3000)
+
+
+
+
+
+
+
+  </script>
+</body>
+
+</html>

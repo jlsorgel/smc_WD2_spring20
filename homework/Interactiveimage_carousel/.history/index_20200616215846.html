@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <form>
+      <label for="group">Group:</label>
+      <select id="group">
+        <option value="cuteAnimals">Cute Animals</option>
+        <option value="food">Food</option>
+        <option value="nature">Nature</option>
+      </select>
+      <label for="category">Category:</label>
+      <select id="category">
+        <option></option>
+      </select>
+    </form>
+  </header>
+  <hr>
+  <div id="carousel">
+    <img id="carouselImg" src="images/daysky1.jpg" alt="some very qute quokkas" />
+  </div>
+  <script>
+    var cuteAnimalCats = ["puppies", "kittens", "quokkas"];
+    var foodCats = ["coffee", "dessert", "cocktails", "muffins"];
+    var natureCats = ["forests", "beaches", "mountains"];
+
+    var groupSelect = document.getElementById("group");
+    var categorySelect = document.getElementById("category");
+
+    groupSelect.addEventListener('change', function () {
+      console.log(groupSelect.value);
+      if (groupSelect.value == 'cuteAnimals') {
+        fillCategory(cuteAnimalCats);
+      }
+      if (groupSelect.value == 'food') {
+        fillCategory(foodCats);
+      }
+      if (groupSelect.value == 'nature') {
+        fillCategory(natureCats);
+      }
+    });
+
+    var fillCategory = function (selection) {
+      categorySelect.innerHTML = "";
+      selection.forEach(element => {
+        var opt = document.createElement('option');
+        opt.value = element;
+        opt.textContent = element.charAt(0).toUpperCase() + element.slice(1);
+
+        categorySelect.appendChild(opt);
+      });
+    }
+  </script>
+  <script>
+    var quokkaImgs = ["images/daysk1.jpg", "images/daysky2.jpg", "images/daysky3.jpg"];
+    var currentImg = 0;
+    var carouselImg = document.getElementById("carouselImg");
+
+    window.setInterval(quokkaGallery, 3000);
+
+    function quokkaGallery() {
+      var nextImg = currentImg + 1;
+      if (nextImg == quokkaImgs.length) nextImg = 0;
+      carouselImg.src = quokkaImgs[nextImg];
+      currentImg = nextImg;
+    }
+  </script>
+</body>
+
+</html>
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+  <header>
+
+    <hr>
+    <form method="GET" action="">
+      <label for="groupSelect">Category</label>
+      <select id="groupSelect">
+        <option value="Cities">Day</option>
+        <option value="Nature">Night</option>
+      </select>
+
+      <label for="catSelect">See Images for</label>
+      <select id="catSelect"></select>
+    </form>
+    <hr>
+  </header>
+
+
+  <main id="gallery">
+    <div class="imgGallery">
+      <img src="images/daycity1.jpg" alt="tokyo skyline" id="galleryImg">
+      <img src="images/daycity2.jpg" alt="new york skyline" id="galleryImg2">
+    </div>
+    <div class="imgGallery">
+      <img src="images/nightsky1.jpg alt=" Red Rock National Park" id="galleryImg3">
+      <img src="images/nightsky2.jpg" alt="Phi Phi Island Thailand" id="galleryImg4">
+    </div>
+  </main>
+
+  <script>
+    var groupSelect = document.getElementById("groupSelect");
+    var catSelect = document.getElementById("catSelect");
+    var galleryImage = document.getElementById("galleryImg");
+
+    var catStandingLevel = ["Beginner", "Intermediate", "Advanced"];
+    var catSeatedLevel = ["Beginner", "Intermediate", "Advanced"];
+    var catInvertedLevel = ["Beginner", "Intermediate", "Advanced"];
+
+    var imageCounter = 1;
+
+    groupSelect.addEventListener("change", function () {
+      console.log(groupSelect.value);
+
+      if (groupSelect.value == "standing") {
+        fillCategory(catStandingLevel);
+      } else if (groupSelect.value == "seated") {
+        fillCategory(catSeatedLevel);
+      } else if (groupSelect.value == "inverted") {
+        fillCategory(catInvertedLevel);
+      } else {
+        catSelect.innerHTML = "";
+      }
+    });
+
+    var fillCategory = function (catArray) {
+      catSelect.innerHTML = "";
+      catArray.forEach(function (member) {
+        var opt = document.createElement("option");
+        opt.value = member;
+        opt.textContent = member;
+        catSelect.appendChild(opt);
+      });
+    };
+
+
+
+    if (imageCounter == 1) {
+
+
+
+
+
+
+      var timerFunction = function () {
+        if (imageCounter == 1) {
+          galleryImg2.src = "images / nightcity1.jpg";
+          imageCounter = 2;
+        }
+        else if (imageCounter == 2) {
+          galleryImg2.src = "images/nightcity2.jpg";
+          imageCounter = 3;
+        }
+        else if (imageCounter == 3) {
+          galleryImg2.src = "images/nightcity3.jpg";
+          imageCounter = 1;
+        }
+      };
+
+      window.setInterval(timerFunction, 3000);
+  </script> -->
+
+//
+<!-- <script>
+  //   var groupSelect = document.getElementById("groupSelect");
+  //   var catSelect = document.getElementById("catSelect");
+
+  //   var galleryImg = document.getElementById("galleryImg");
+  //   var catCities = ["Tokyo", "New York"];
+  //   var catNature = ["Beaches", "Deserts"];
+
+  //   var imageCounter = 1;
+
+  //   groupSelect.addEventListener("change", function () {
+  //     console.log(groupSelect.value);
+  //     if (groupSelect.value == "Cities") {
+  //       fillCategory(catCities);
+  //     }
+
+  //     else if (groupSelect.value == "Nature") {
+  //       fillCategory(catNature);
+  //     }
+  //     else {
+  //       // all other cases
+  //       catSelect.innerHTML = "";
+  //     }
+
+
+  //   })
+
+  //   var fillCategory = function (catArray) {
+  //     catSelect.innerHTML = "";
+  //     catArray.forEach(function (member) {
+  //       var opt = document.createElement("option");
+  //       opt.value = member;
+  //       opt.textContent = member;
+  //       catSelect.appendChild(opt);
+  //     })
+  //   }
+
+
+
+
+  //   var timerFunction = function () {
+  //     // var newElem = document.createElement("p");
+  //     // newElem.textContent = "Another paragraph";
+  //     // document.getElementById("gallery").appendChild(newElem);
+
+  //     if (imageCounter == 1) {
+  //       galleryImg.src = "images / daycity1.jpg"
+  //       imageCounter = 2;
+  //     }
+  //     else if (imageCounter == 2) {
+  //       galleryImg.src = "images / daycity2.jpg";
+  //       imageCounter = 3;
+  //     }
+  //     else if (imageCounter == 3) {
+  //       galleryImg.src = "images / daycity3.jpg";
+  //       imageCounter = 1;
+   
+
+  // }
+  // window.setInterval(timerFunction, 3000);
+
+  // var timerFunction = function () {
+
+
+  // if (imageCounter == 1) {
+  // galleryImg2.src = "images / nightcity1.jpg";
+  // imageCounter = 2;
+  // }
+  // else if (imageCounter == 2) {
+  // galleryImg2.src = "images/nightcity2.jpg";
+  // imageCounter = 3;
+  // }
+  // else if (imageCounter == 3) {
+  // galleryImg2.src = "images/nightcity3.jpg";
+  // imageCounter = 1;
+  // }
+
+  // }
+  // window.setInterval(timerFunction, 3000)
+
+  // var timerFunction = function () {
+
+
+  // if (imageCounter == 1) {
+  // galleryImg3.src = "images/daysky1.jpg";
+  // imageCounter = 2;
+  // }
+  // else if (imageCounter == 2) {
+  // galleryImg3.src = "images/daysky2.jpg";
+  // imageCounter = 3;
+  // }
+  // else if (imageCounter == 3) {
+  // galleryImg3.src = "images/daysky3.jpg";
+  // imageCounter = 1;
+  // }
+
+  // }
+  // window.setInterval(timerFunction, 3000)
+
+  // var timerFunction = function () {
+
+
+  // if (imageCounter == 1) {
+  // galleryImg4.src = "images/nightsky1.jpg";
+  // imageCounter = 2;
+  // }
+  // else if (imageCounter == 2) {
+  // galleryImg4.src = "images/nightsky2.jpg";
+  // imageCounter = 3;
+  // }
+  // else if (imageCounter == 3) {
+  // galleryImg4.src = "images/nightwater2.jpg";
+  // imageCounter = 1;
+  // }
+
+  // }
+  // window.setInterval(timerFunction, 3000)
+
+
+
+
+
+
+
+  </script>
+</body>
+
+</html>
